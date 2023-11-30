@@ -47,10 +47,6 @@ for each_row in rows:
       else:
          sender = 'unknown'
          recipient = 'unknown'
-      if sender == '15209034385':
-         sender = 'Lindsay'
-      if recipient == '15209034385':
-         recipient = 'Lindsay'
       worksheet.write(i, 0, time_stamp)
       worksheet.write(i, 1, sender)
       worksheet.write(i, 2, recipient)
