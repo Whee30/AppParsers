@@ -1,3 +1,21 @@
+import sqlite3
+from datetime import datetime
+import xlsxwriter
+
+connection = sqlite3.connect('./FreeCall.db', uri=True)
+connection.row_factory = sqlite3.Row
+cur = connection.cursor()
+cur.execute("SELECT * FROM t_smsLog")
+
+rows = {}
+rows = cur.fetchall()
+
+def dateChanger(inputValue):
+   inputValueSel = inputValue[0:9]
+   inputValueInt = int(inputValueSel) + 978307200
+   timeHolder = datetime.fromtimestamp(inputValueInt)
+   formatted = timeHolder.strftime("%Y-%m-%d %H:%M:%S")
+   return formatted
 
 # Create an new Excel file and add a worksheet
 workbook = xlsxwriter.Workbook('FreeCall Messages.xlsx')
