@@ -46,10 +46,6 @@ for each_row in rows:
       caller = each_row['local_num']
       recipient = ''
       recipient = each_row['remote_num']
-      if caller == '15209034385':
-         caller = 'Lindsay'
-      if recipient == '15209034385':
-         recipient = 'Lindsay'
       worksheet.write(i, 0, caller)
       worksheet.write(i, 1, recipient)
       worksheet.write(i, 2, time_start)
