@@ -5,6 +5,8 @@ import os
 ### to the device. These logs show the timestamps when a particular video was downloaded through the application
 ### the video ID correlates to the filename found in /Documents/video when converted to hex.
 ### id_list.csv was saved as a csv so it could be imported into Cellebrite as a "watchlist" and the files could be searched for/identified in bulk.
+### Another line to look for is "Joining watcher to watchers of" - this looks like a reference to joining a group chat. Needs more testing.
+
 
 path_to_logs = "./potato_logs"
 
