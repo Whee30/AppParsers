@@ -1,6 +1,14 @@
 import os
 
-path_to_logs = "./potato_logs/logs"
+### In the /Documents folder, there are several application logs. Testing shows a rolling cache of 30 logfiles so far
+### By putting all of the logs into oen folder and iterating through them, lines are extracted where video files are downloaded
+### to the device. These logs show the timestamps when a particular video was downloaded through the application
+### the video ID correlates to the filename found in /Documents/video when converted to hex.
+### id_list.csv was saved as a csv so it could be imported into Cellebrite as a "watchlist" and the files could be searched for/identified in bulk.
+### Another line to look for is "Joining watcher to watchers of" - this looks like a reference to joining a group chat. Needs more testing.
+
+
+path_to_logs = "./potato_logs"
 
 video_flag = "videoId = "
 
@@ -13,7 +21,9 @@ with open("output.txt", "w") as output_file:
             for line in log_file:
                 if video_flag in line:
                     last_19 = line[-20:].strip()
+                    print(last_19)
                     hex_19 = hex(int(last_19))[2:]
+                    print(hex_19)
                     id_holder.append(hex_19)
                     output_file.write(f"In {each_file}, {line}")
 
