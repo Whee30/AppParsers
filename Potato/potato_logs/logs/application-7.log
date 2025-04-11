@@ -1,0 +1,1777 @@
+2025-03-09 03:00:30.555 didFinishLaunchingWithOptions state: <TGApplication: 0x15ff423d0>, 1
+2025-03-09 03:00:30.556 ###### Early initialization ######
+2025-03-09 03:00:30.556 ATQueue count = 1
+2025-03-09 03:00:30.557 ATQueue count = 2
+2025-03-09 03:00:30.557 Moved 8 document items to container
+2025-03-09 03:00:30.557 Running with org.potatochat.PotatoEnterprise (version 3676)
+2025-03-09 03:00:30.557 journal_mode = delete
+2025-03-09 03:00:30.560 DB Error: 1 "duplicate column name: service_unread"
+2025-03-09 03:00:30.560 DB Query: ALTER TABLE convesations_v32 ADD COLUMN service_unread INTEGER
+2025-03-09 03:00:30.560 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:00:30.564 MediaBox path /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/mediacache
+2025-03-09 03:00:30.564 !=========== -[TGAppDelegate application:didFinishLaunchingWithOptions:] Time: 0.205104
+2025-03-09 03:00:30.564 before root controller
+2025-03-09 03:00:30.570 create index on media by message id: 0.000014 s
+2025-03-09 03:00:30.749 st story data hasMoreToken - 1738791911:1738791911:0:c16e230a95533614c11c9782884d7995
+2025-03-09 03:00:30.750 st story data hasMoreTokenForHidden - 1738791913:1738791913:0:680097abff3488cb30061f9398577471
+2025-03-09 03:00:30.750 st story data autoExpiredStories start~~
+2025-03-09 03:00:30.846 constructorName is not implemented for base type
+2025-03-09 03:00:30.846 constructorName is not implemented for base type
+2025-03-09 03:00:30.846 constructorName is not implemented for base type
+2025-03-09 03:00:30.846 constructorName is not implemented for base type
+2025-03-09 03:00:30.866 ***** Type GeoGroupCountLimit not registered
+2025-03-09 03:00:30.867 ***** Type GeoGroupCountLimit not registered
+2025-03-09 03:00:30.868 ***** Type stories.BoostersList not registered
+2025-03-09 03:00:30.868 ***** Type stories.BoostsStatus not registered
+2025-03-09 03:00:30.868 ***** Failed to resolve type stories.BoostersList
+2025-03-09 03:00:30.868 ***** Failed to resolve type GeoGroupCountLimit
+2025-03-09 03:00:30.868 ***** Failed to resolve type StoryViews
+2025-03-09 03:00:30.868 ***** Failed to resolve type PeerStories
+2025-03-09 03:00:30.868 ***** Failed to resolve type stories.BoostsStatus
+2025-03-09 03:00:30.868 ***** Failed to resolve type Flags
+2025-03-09 03:00:30.868 ***** Failed to resolve unboxed type flags
+2025-03-09 03:00:30.868 ***** Failed to resolve unboxed type flags
+2025-03-09 03:00:30.868 starting with langpack en
+2025-03-09 03:00:30.869 dcip--startBefore-TGTelegramNetworking-init
+2025-03-09 03:00:30.875 [MTContext#82d71700: auth info is nil : 0]
+2025-03-09 03:00:30.882 auth key id: 82036387a7d8fd13
+2025-03-09 03:00:30.882 st story data autoExpiredStories storyMinimumDate - 0 nowDate - 1741514429 diff - -1741514429
+2025-03-09 03:00:30.884 st net begin TGTelegramNetworking
+2025-03-09 03:00:30.884 mt trying tcp://99.83.186.166:20335
+2025-03-09 03:00:30.884 dcip--manager beginConnect beginConnectAddress-99.83.186.166:20335-tcp dataNum-1741514430884.249
+2025-03-09 03:00:30.885 [MTTcpConnection#82860c40 connecting to 99.83.186.166:20335]
+2025-03-09 03:00:30.889 client deviceUUID: ab50d8e4-d053-4240-ae87-1d5e5924fdde
+2025-03-09 03:00:30.891 [MTProto#0x28207b700 changing transport #0x0 to MTTcpTransport#0x283224a00]
+2025-03-09 03:00:30.891 [MTNetworkAvailability#0x281f832a0 state: L_-U_+]
+2025-03-09 03:00:30.891 [MTProto#0x28207b700 network state: available]
+2025-03-09 03:00:30.891 [MTProto#0x28207b700 connection state: connecting]
+2025-03-09 03:00:30.891 reconnectlog-[MessageService#0x281e41fe0 connection:0 last: 0]
+2025-03-09 03:00:30.892 [MTTcpConnection#82861260 connecting to 99.83.186.166:20335]
+2025-03-09 03:00:30.894 [MTProto#0x28207b700 connection context update state: up to date]
+2025-03-09 03:00:30.924 web3 enter 40
+2025-03-09 03:00:30.926 web3 enter 110 0
+2025-03-09 03:00:30.927 Connection time: 39.507985 ms, interface: WAN
+2025-03-09 03:00:30.935 Connection time: 40.369987 ms, interface: WAN
+2025-03-09 03:00:30.936 [MTProto#0x28207b700 connection state: connected]
+2025-03-09 03:00:30.936 reconnectlog-[MessageService#0x281e41fe0 connection:1 last: 0]
+2025-03-09 03:00:30.937 [MTProto#0x28207b700 preparing ping (7479747520301256704/0)]
+2025-03-09 03:00:30.937 [MTProto#0x28207b700 preparing <TLRPCmessages_sendDeviceUUID: 0x281374750> (7479747520301661184/0)]
+2025-03-09 03:00:30.937 [MTProto#0x28207b700 preparing <TLRPChelp_getSupportHosts$help_getSupportHosts: 0x281374600> (7479747520301896704/0)]
+2025-03-09 03:00:30.937 [MTProto#0x28207b700 preparing <TLRPChelp_getUrlConfig$getUrlConfig: 0x281374790> (7479747520302171136/0)]
+2025-03-09 03:00:30.938 [MTProto#0x28207b700 preparing <TLRPChelp_getAppConfig$help_getAppConfig: 0x281378800> (7479747520304057344/0)]
+2025-03-09 03:00:30.938 [MTProto#0x28207b700 service tasks state: 16, resend: no]
+2025-03-09 03:00:30.938 [MTProto#0x28207b700 begin time sync]
+2025-03-09 03:00:30.938 [MTProto#8207b700 sending time fix ping (7479747520308562944/8)]
+2025-03-09 03:00:31.019 [PotatoNetworking state: 0 1 1 1 0]
+2025-03-09 03:00:31.051 !=========== -[TGAppDelegate application:didFinishLaunchingWithOptions:] Time: 0.693108
+2025-03-09 03:00:31.051 set root controller
+2025-03-09 03:00:31.140 Activating user
+2025-03-09 03:00:31.140 Activated = 1
+2025-03-09 03:00:31.177 ###### Dialog list loaded ######
+2025-03-09 03:00:31.177 !=========== -[TGAppDelegate application:didFinishLaunchingWithOptions:]_block_invoke_6 Time: 0.819504
+2025-03-09 03:00:31.177 loaded dialogs
+2025-03-09 03:00:31.247 !=========== -[TGAppDelegate application:didFinishLaunchingWithOptions:] Time: 0.889128
+2025-03-09 03:00:31.247 launching filish
+2025-03-09 03:00:31.282 !=========== -[TGAppDelegate application:didFinishLaunchingWithOptions:]_block_invoke Time: 0.923794
+2025-03-09 03:00:31.282 root controller ready
+2025-03-09 03:00:31.320 st story enabled - 1 _storiesEnabled - 0
+2025-03-09 03:00:31.389 !=========== -[TGAppDelegate application:didFinishLaunchingWithOptions:]_block_invoke_8 Time: 1.016121
+2025-03-09 03:00:31.389 in dialog controller
+2025-03-09 03:00:31.389 ===== Dispatched dialog list
+2025-03-09 03:00:31.389 tg -- unreadCount -- 0
+2025-03-09 03:00:31.407 logstate-- has clientUserId
+2025-03-09 03:00:31.407 st tabbar gameHidden -- 0
+2025-03-09 03:00:31.408 st tabbar walletHidden -- 0
+2025-03-09 03:00:31.408 application Did Become Active
+2025-03-09 03:00:31.443 !=========== -[TGAppDelegate application:didFinishLaunchingWithOptions:]_block_invoke_8 Time: 1.077922
+2025-03-09 03:00:31.443 in dialog controller
+2025-03-09 03:00:31.443 ===== Dialog list reloaded
+2025-03-09 03:00:31.456 didFinishLaunchingWithOptions AQEntry StartWaitingAddition
+2025-03-09 03:00:31.456 st story enabled - 1 _showStories - 0 storySubscriptionsModel - (null)
+2025-03-09 03:00:31.456 Starting with user id 91399161 activated: 1
+2025-03-09 03:00:31.456 Activating user
+2025-03-09 03:00:31.456 reconnectlog-ActionStage requestActor:updatestate
+2025-03-09 03:00:31.499 reconnectlog-updateState--pts:543018 date:1741505296
+2025-03-09 03:00:31.557 sync contacts /tg/synchronizeContacts/(sync): execute with (null)
+2025-03-09 03:00:31.826 sync contacts /tg/synchronizeContacts/(removeAndExport): execute with {
+    signalSynchronizationCompleted = 0;
+}
+2025-03-09 03:00:31.833 processRemoveAndExportActionsremoveUids-0
+2025-03-09 03:00:31.837 sync contacts /tg/synchronizeContacts/(loadRemote): execute with (null)
+2025-03-09 03:00:31.837 TLRPCcontacts_getContacts$contacts_getContacts request...1635200001
+2025-03-09 03:00:31.837 firstTimeSync----1
+2025-03-09 03:00:31.838 Continue to watch for actor "/tg/synchronizeContacts/(loadRemote)"
+2025-03-09 03:00:31.862 >>>>>>currentType=8  status=1
+2025-03-09 03:00:31.862 >>>>>>currentType=1  status=1
+2025-03-09 03:00:31.862 >>>>>>currentType=6  status=1
+2025-03-09 03:00:31.862 >>>>>>currentType=11  status=1
+2025-03-09 03:00:31.862 >>>>>>currentType=1  status=1
+2025-03-09 03:00:31.862 >>>>>>currentType=6  status=1
+2025-03-09 03:00:31.862 ===== Dialog list did appear
+2025-03-09 03:00:31.865 st advert timeInterval - 1741514431 secretModel.cache - 1739257200
+2025-03-09 03:00:31.865 sync contacts /tg/synchronizeContacts/(removeAndExport): execute with {
+    signalSynchronizationCompleted = 0;
+}
+2025-03-09 03:00:31.865 processRemoveAndExportActionsremoveUids-0
+2025-03-09 03:00:31.867 Continue to watch for actor "/tg/synchronizeContacts/(loadRemote)"
+2025-03-09 03:00:31.867 firstTimeSync2----1
+2025-03-09 03:00:31.867 Continue to watch for actor "/tg/synchronizeContacts/(loadRemote)"
+2025-03-09 03:00:31.877 moment 111 moment new ip is: 99.83.186.166:19527
+2025-03-09 03:00:31.898 remove moment table moment_MomentTable_v29 failure
+2025-03-09 03:00:31.898 st advert getAdverts begin identifier - PTAdvertManager-update-0x2811fc7a0
+2025-03-09 03:00:31.916 doRequestContactList95 hash=1635200001 offset_id=0
+2025-03-09 03:00:31.916 st address upload -> 0
+2025-03-09 03:00:31.917 st address start deleteAll
+2025-03-09 03:00:31.937 requesting difference with pts: 543018, seq: 0, date: 1741505296, qts 0
+2025-03-09 03:00:31.966 web3 enter 20
+2025-03-09 03:00:31.966 web3 enter 110 0
+2025-03-09 03:00:31.974 st advert timeInterval - 1741514431 secretModel.cache - 1739257200
+2025-03-09 03:00:31.978 getdifference--pts = 543018 , qts  0, date = 1741505296
+2025-03-09 03:00:31.978 st tabbar walletHidden -- 0
+2025-03-09 03:00:31.978 st tabbar gameHidden -- 0
+2025-03-09 03:00:31.991 st story enabled for settings - 1 _storiesEnabled - 0
+2025-03-09 03:00:31.991 st tabbar gameHidden -- 0
+2025-03-09 03:00:31.991 st tabbar walletHidden -- 0
+2025-03-09 03:00:32.017 Cancelled request to "/img/({filter:circle:62x62}2_-5644876451702193727_233476801_34906616918435134_1)"
+2025-03-09 03:00:32.017 Joining watcher to the watchers of "/img/({filter:circle:62x62}2_-5429024026899338428_238189636_5818668175342249595_1)"
+2025-03-09 03:00:32.017 Cancelled request to "/img/({filter:circle:62x62}2_-4995402294742423990_239908682_4211383544559301219_1)"
+2025-03-09 03:00:32.017 Joining watcher to the watchers of "/img/({filter:circle:62x62}2_-5286053009518377370_241014630_5612670758980452832_1)"
+2025-03-09 03:00:32.018 Joining watcher to the watchers of "/img/({filter:circle:62x62}2_-5139614948513177864_237858808_5721507424065169374_1)"
+2025-03-09 03:00:32.018 Cancelled request to "/img/({filter:circle:62x62}2_-4996740155582463574_237736618_2715383218023995083_1)"
+2025-03-09 03:00:32.018 Joining watcher to the watchers of "/img/({filter:circle:62x62}2_-4925551059763010965_241087339_1052060385285561948_1)"
+2025-03-09 03:00:32.018 Cancelled request to "/img/({filter:circle:62x62}2_-4854343499882144228_241446684_726453481102338416_1)"
+2025-03-09 03:00:32.018 Joining watcher to the watchers of "/img/({filter:circle:62x62}2_-5141473664328090312_239767096_3768543365510071412_1)"
+2025-03-09 03:00:32.018 Joining watcher to the watchers of "/img/({filter:circle:62x62}2_-4852009606064617700_240392220_8464903283326002387_1)"
+2025-03-09 03:00:32.129 mt success tcp://99.83.186.166:20335
+2025-03-09 03:00:32.129 scheme: tcp://99.83.186.166:20335 (media: no, cdn: no, static: no) (media: no)
+2025-03-09 03:00:32.404 Updated contact list
+2025-03-09 03:00:32.413 ===== Setting presence: online
+2025-03-09 03:00:32.429 [MTContext#82d71700: generic transport scheme updated for 2: tcp://99.83.186.166:20335 (media: no, cdn: no, static: no) (media: no)]
+2025-03-09 03:00:32.429 Cancelled request to "/img/({filter:circle:62x62}2_-5644876451702193727_233476801_34906616918435134_1)"
+2025-03-09 03:00:32.429 Joining watcher to the watchers of "/img/({filter:circle:62x62}2_-5429024026899338428_238189636_5818668175342249595_1)"
+2025-03-09 03:00:32.429 Cancelled request to "/img/({filter:circle:62x62}2_-4995402294742423990_239908682_4211383544559301219_1)"
+2025-03-09 03:00:32.429 Joining watcher to the watchers of "/img/({filter:circle:62x62}2_-5286053009518377370_241014630_5612670758980452832_1)"
+2025-03-09 03:00:32.429 Joining watcher to the watchers of "/img/({filter:circle:62x62}2_-5139614948513177864_237858808_5721507424065169374_1)"
+2025-03-09 03:00:32.429 Cancelled request to "/img/({filter:circle:62x62}2_-4996740155582463574_237736618_2715383218023995083_1)"
+2025-03-09 03:00:32.429 Joining watcher to the watchers of "/img/({filter:circle:62x62}2_-4925551059763010965_241087339_1052060385285561948_1)"
+2025-03-09 03:00:32.429 Cancelled request to "/img/({filter:circle:62x62}2_-4854343499882144228_241446684_726453481102338416_1)"
+2025-03-09 03:00:32.429 Joining watcher to the watchers of "/img/({filter:circle:62x62}2_-5141473664328090312_239767096_3768543365510071412_1)"
+2025-03-09 03:00:32.429 Joining watcher to the watchers of "/img/({filter:circle:62x62}2_-4852009606064617700_240392220_8464903283326002387_1)"
+2025-03-09 03:00:32.429 device_saveDebug with para = {
+    native =     {
+        isJailBreak = 0;
+        os = ios;
+    };
+}
+2025-03-09 03:00:32.440 st story data updateItemPeer - 91399161 hidden - 0 newPeerHidden - 0
+2025-03-09 03:00:32.440 st story data accountItem - SubscriptionsItem - 0x280b07900 storyCount - 0 unseenCount - 0 hidden - 0 hasPending - 0 readModel - (null) itemModels count - 0 hasMoreToken - 1738791911:1738791911:0:c16e230a95533614c11c9782884d7995
+2025-03-09 03:00:32.440 st story data autoExpiredStories cancel hasAutoExpiredStoriesTask true ~~
+2025-03-09 03:00:32.863 dcip--manager connect failed  ip-99.83.186.166 port-20335 errorCode-3 error-ATTEMPT TO CONNECT TO HOST TIMED OUT
+2025-03-09 03:00:33.200 dcip--manager endConnect host - 99.83.186.166:20335 costTime - 1974 error -- ATTEMPT TO CONNECT TO HOST TIMED OUT
+2025-03-09 03:00:33.200 [MTTcpConnection#82860c40 disconnected from 99.83.186.166]
+2025-03-09 03:00:33.200 [MTProto#0x28207b700 received <MTBadServerSaltNotificationMessage: 0x28156a160> (7479747526853145235)]
+2025-03-09 03:00:33.200 [MTProto#0x28207b700 service tasks state: 0, resend: no]
+2025-03-09 03:00:33.200 [MTContext#82d71700: global time difference changed: -1.9s]
+2025-03-09 03:00:33.200 [MTContext#82d71700: auth info updated for 2]
+2025-03-09 03:00:33.200 [MTContext#82d71700: auth info {
+    1 = "<MTDatacenterAuthInfo: 0x281f81c80>";
+    2 = "<MTDatacenterAuthInfo: 0x281f81d70>";
+}]
+2025-03-09 03:00:33.201 [MTProto#0x28207b700 preparing msgsAck (7479747527224415232/0)]
+2025-03-09 03:00:33.201 [MTProto#0x28207b700 preparing <TLRPCmessages_sendDeviceUUID: 0x281374750> (7479747520301661184/1)]
+2025-03-09 03:00:33.201 [MTProto#0x28207b700 preparing <TLRPChelp_getSupportHosts$help_getSupportHosts: 0x281374600> (7479747520301896704/3)]
+2025-03-09 03:00:33.201 [MTProto#0x28207b700 preparing <TLRPChelp_getUrlConfig$getUrlConfig: 0x281374790> (7479747520302171136/5)]
+2025-03-09 03:00:33.205 [MTProto#0x28207b700 preparing <TLRPChelp_getAppConfig$help_getAppConfig: 0x281378800> (7479747520304057344/7)]
+2025-03-09 03:00:33.205 [MTProto#0x28207b700 preparing <TLDigitalWallet$Relay: 0x2811c1780> (7479747527225545728/0)]
+2025-03-09 03:00:33.205 [MTProto#0x28207b700 preparing <TLDigitalWallet$Relay: 0x2811fc140> (7479747527225721856/0)]
+2025-03-09 03:00:33.205 [MTProto#0x28207b700 preparing <TLRPCstories_canSendStory$stories_canSendStory: 0x28137b160> (7479747527225935872/0)]
+2025-03-09 03:00:33.205 [MTProto#0x28207b700 preparing <TLRPCstories_canSendStory$stories_canSendStory: 0x28137fa00> (7479747527226150912/0)]
+2025-03-09 03:00:33.205 [MTProto#0x28207b700 preparing <TLRPCcontacts_getContacts$contacts_getContacts: 0x28134a360> (7479747527226301440/0)]
+2025-03-09 03:00:33.205 [MTProto#0x28207b700 preparing <TLRPCadverts_getAdverts$adverts_getAdverts: 0x281346b10> (7479747527226450944/0)]
+2025-03-09 03:00:33.205 [MTProto#0x28207b700 preparing <TLRPCcontacts_getContacts$contacts_getContacts95: 0x281059b20> (7479747527226644480/0)]
+2025-03-09 03:00:33.205 [MTProto#0x28207b700 preparing <TLRPChelp_getAppConfig$help_getAppConfig: 0x281346cf0> (7479747527226807296/0)]
+2025-03-09 03:00:33.206 [MTProto#0x28207b700 preparing <TLRPCcontacts_importContacts$contacts_importContacts95: 0x281059b00> (7479747527226953728/0)]
+2025-03-09 03:00:33.206 [MTProto#0x28207b700 preparing <TLRPCNewNeighbor$getUnReadMsgNum: 0x281059d20> (7479747527227116544/0)]
+2025-03-09 03:00:33.206 [MTProto#0x28207b700 preparing <TLRPCGetFullUserPt$getFullUserPt: 0x281345bb0> (7479747527227276288/0)]
+2025-03-09 03:00:33.206 [MTProto#0x28207b700 preparing <TLRPCGetDiscoveryPage$getDiscoveryPage: 0x28134ba70> (7479747527227439104/0)]
+2025-03-09 03:00:33.206 [MTProto#0x28207b700 preparing <TLRPCupdates_getDifference$updates_getDifference: 0x28105a6e0> (7479747527227601920/0)]
+2025-03-09 03:00:33.206 [MTProto#0x28207b700 preparing <TLRPCstories_getAllStories$stories_getAllStories: 0x2810193a0> (7479747527227761664/0)]
+2025-03-09 03:00:33.206 [MTProto#0x28207b700 preparing <TLDigitalWallet$Relay: 0x2810c7b80> (7479747527227920384/0)]
+2025-03-09 03:00:33.206 [MTProto#0x28207b700 preparing <TLDigitalWallet$Relay: 0x2810ca2a0> (7479747527228075008/0)]
+2025-03-09 03:00:33.217 [MTProto#0x28207b700 preparing <TLRPCaccount_updateStatus$account_updateStatus: 0x2817123c0> (7479747527228220416/0)]
+2025-03-09 03:00:33.218 [MTProto#0x28207b700 preparing <TLRPCdevice_saveDebug$device_saveDebug: 0x28132c010> (7479747527228376064/0)]
+2025-03-09 03:00:33.218 [MTProto#0x28207b700 preparing <TLRPCmessages_getAllStickers$messages_getAllStickers: 0x2813e6110> (7479747527228525568/0)]
+2025-03-09 03:00:33.218 [MTProto#0x28207b700 preparing <TLRPCmessages_getArchivedStickers$messages_getArchivedStickers: 0x281579d80> (7479747527228685312/0)]
+2025-03-09 03:00:33.218 [MTProto#0x28207b700 preparing <TLRPChelp_getGeoGroupCountLimit$getGeoGroupCountLimit: 0x2813e8e80> (7479747527228843008/0)]
+2025-03-09 03:00:33.218 [MTProto#0x28207b700 preparing <TLRPCmessages_getFeaturedStickers$messages_getFeaturedStickers: 0x2813e68c0> (7479747527229346816/0)]
+2025-03-09 03:00:33.218 [MTProto#0x28207b700 service tasks state: 16, resend: no]
+2025-03-09 03:00:33.218 [MTProto#0x28207b700 begin time sync]
+2025-03-09 03:00:33.225 [MTProto#8207b700 sending time fix ping (7479747527230862336/52)]
+2025-03-09 03:00:33.225 [PotatoNetworking state: 0 1 1 1 0]
+2025-03-09 03:00:33.244 [MTProto#0x28207b700 received <MTPongMessage: 0x281567040> (7479747535168106931)]
+2025-03-09 03:00:33.245 [MTProto#0x28207b700 service tasks state: 0, resend: no]
+2025-03-09 03:00:33.251 [MTProto#0x28207b700 preparing msgsAck (7479747528221316096/0)]
+2025-03-09 03:00:33.251 [MTProto#0x28207b700 preparing <TLRPCmessages_sendDeviceUUID: 0x281374750> (7479747520301661184/1)]
+2025-03-09 03:00:33.251 [MTProto#0x28207b700 preparing <TLRPChelp_getSupportHosts$help_getSupportHosts: 0x281374600> (7479747520301896704/3)]
+2025-03-09 03:00:33.252 [MTProto#0x28207b700 preparing <TLRPChelp_getUrlConfig$getUrlConfig: 0x281374790> (7479747520302171136/5)]
+2025-03-09 03:00:33.252 [MTProto#0x28207b700 preparing <TLRPChelp_getAppConfig$help_getAppConfig: 0x281378800> (7479747520304057344/7)]
+2025-03-09 03:00:33.253 [MTProto#0x28207b700 preparing <TLDigitalWallet$Relay: 0x2811c1780> (7479747527225545728/9)]
+2025-03-09 03:00:33.253 [MTProto#0x28207b700 preparing <TLDigitalWallet$Relay: 0x2811fc140> (7479747527225721856/11)]
+2025-03-09 03:00:33.253 [MTProto#0x28207b700 preparing <TLRPCstories_canSendStory$stories_canSendStory: 0x28137b160> (7479747527225935872/13)]
+2025-03-09 03:00:33.253 [MTProto#0x28207b700 preparing <TLRPCstories_canSendStory$stories_canSendStory: 0x28137fa00> (7479747527226150912/15)]
+2025-03-09 03:00:33.254 [MTProto#0x28207b700 preparing <TLRPCcontacts_getContacts$contacts_getContacts: 0x28134a360> (7479747527226301440/17)]
+2025-03-09 03:00:33.254 [MTProto#0x28207b700 preparing <TLRPCadverts_getAdverts$adverts_getAdverts: 0x281346b10> (7479747527226450944/19)]
+2025-03-09 03:00:33.254 [MTProto#0x28207b700 preparing <TLRPCcontacts_getContacts$contacts_getContacts95: 0x281059b20> (7479747527226644480/21)]
+2025-03-09 03:00:33.255 [MTProto#0x28207b700 preparing <TLRPChelp_getAppConfig$help_getAppConfig: 0x281346cf0> (7479747527226807296/23)]
+2025-03-09 03:00:33.255 [MTProto#0x28207b700 preparing <TLRPCcontacts_importContacts$contacts_importContacts95: 0x281059b00> (7479747527226953728/25)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLRPCNewNeighbor$getUnReadMsgNum: 0x281059d20> (7479747527227116544/27)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLRPCGetFullUserPt$getFullUserPt: 0x281345bb0> (7479747527227276288/29)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLRPCGetDiscoveryPage$getDiscoveryPage: 0x28134ba70> (7479747527227439104/31)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLRPCupdates_getDifference$updates_getDifference: 0x28105a6e0> (7479747527227601920/33)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLRPCstories_getAllStories$stories_getAllStories: 0x2810193a0> (7479747527227761664/35)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLDigitalWallet$Relay: 0x2810c7b80> (7479747527227920384/37)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLDigitalWallet$Relay: 0x2810ca2a0> (7479747527228075008/39)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLRPCaccount_updateStatus$account_updateStatus: 0x2817123c0> (7479747527228220416/41)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLRPCdevice_saveDebug$device_saveDebug: 0x28132c010> (7479747527228376064/43)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLRPCmessages_getAllStickers$messages_getAllStickers: 0x2813e6110> (7479747527228525568/45)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLRPCmessages_getArchivedStickers$messages_getArchivedStickers: 0x281579d80> (7479747527228685312/47)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLRPChelp_getGeoGroupCountLimit$getGeoGroupCountLimit: 0x2813e8e80> (7479747527228843008/49)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLRPCmessages_getFeaturedStickers$messages_getFeaturedStickers: 0x2813e68c0> (7479747527229346816/51)]
+2025-03-09 03:00:33.256 [MTProto#0x28207b700 preparing <TLRPCstories_getAllStories$stories_getAllStories: 0x2816cf880> (7479747528253971456/0)]
+2025-03-09 03:00:33.330 [PotatoNetworking state: 0 0 1 1 0]
+2025-03-09 03:00:33.479 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x28131a960> (7479747536182666907)]
+2025-03-09 03:00:33.489 moment clearLocalRequest statueCode: unauthenticated, statueMessage: Request unauthenticated with Bearer, ip is 99.83.186.166:19527
+2025-03-09 03:00:33.495 [MTProto#0x28207b700 received <MTNewSessionCreatedMessage: 0x28169ae60> (7479747536184264475)]
+2025-03-09 03:00:33.495 reconnectlog-ActionStage requestActor:updatestate
+2025-03-09 03:00:33.495 Continue to watch for actor "/tg/service/updatestate"
+2025-03-09 03:00:33.495 [MTProto#0x28207b700 received <MTNewSessionCreatedMessage: 0x2816ee1e0> (7479747536184730667)]
+2025-03-09 03:00:33.495 reconnectlog-ActionStage requestActor:updatestate
+2025-03-09 03:00:33.496 [MTProto#0x28207b700 preparing msgsAck (7479747529284960256/0)]
+2025-03-09 03:00:33.496 [MTProto#0x28207b700 preparing <TLMessages$getSelfToken: 0x2813188a0> (7479747529285291008/0)]
+2025-03-09 03:00:33.496 moment getUnreadMessage statueCode: unauthenticated, statueMessage: Request unauthenticated with Bearer, ip is 99.83.186.166:19527
+2025-03-09 03:00:33.497 Continue to watch for actor "/tg/service/updatestate"
+2025-03-09 03:00:33.498 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2816edf60> (7479747536188329319)]
+2025-03-09 03:00:33.500 [MTRequestMessageService#0x28354c1e0 response for 7479747527227116544 is <TLNearInfo$unreadnum: 0x281d9a280>]
+2025-03-09 03:00:33.501 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2816edb00> (7479747536193291343)]
+2025-03-09 03:00:33.504 [MTRequestMessageService#0x28354c1e0 response for 7479747520301896704 is <TLhelp_UpdateSupportHosts$help_UpdateSupportHosts: 0x280bf6580>]
+2025-03-09 03:00:33.504 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28169a540> (7479747536194230313)]
+2025-03-09 03:00:33.504 [MTRequestMessageService#0x28354c1e0 response for 7479747527228220416 is 1]
+2025-03-09 03:00:33.504 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28169a400> (7479747536194445817)]
+2025-03-09 03:00:33.504 [MTRequestMessageService#0x28354c1e0 response for 7479747520301661184 is 1]
+2025-03-09 03:00:33.504 send device uuid is: success
+2025-03-09 03:00:33.507 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28169a140> (7479747536194996669)]
+2025-03-09 03:00:33.507 [MTRequestMessageService#0x28354c1e0 response for 7479747527228376064 is <TLDataJSON$dataJSON: 0x2813eb8b0>]
+2025-03-09 03:00:33.507 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2816ed8a0> (7479747536196517273)]
+2025-03-09 03:00:33.507 [MTRequestMessageService#0x28354c1e0 response for 7479747527225935872 is 1]
+2025-03-09 03:00:33.507 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2816ed780> (7479747536197764107)]
+2025-03-09 03:00:33.507 device_saveDebug success
+2025-03-09 03:00:33.508 [MTRequestMessageService#0x28354c1e0 response for 7479747520304057344 is <TLJSONValue$jsonObject: 0x2813ebc90>]
+2025-03-09 03:00:33.536 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281697ea0> (7479747536198865801)]
+2025-03-09 03:00:33.536 [MTRequestMessageService#0x28354c1e0 response for 7479747527226150912 is 1]
+2025-03-09 03:00:33.536 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2816e9660> (7479747536201970783)]
+2025-03-09 03:00:33.536 [MTRequestMessageService#0x28354c1e0 response for 7479747527226807296 is <TLJSONValue$jsonObject: 0x281318610>]
+2025-03-09 03:00:33.537 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281697100> (7479747536203988359)]
+2025-03-09 03:00:33.537 [MTRequestMessageService#0x28354c1e0 response for 7479747527226301440 is <TLcontacts_Contacts$contacts_contactsNotModified: 0x281318650>]
+2025-03-09 03:00:33.537 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2816973c0> (7479747536204222553)]
+2025-03-09 03:00:33.537 [MTRequestMessageService#0x28354c1e0 response for 7479747527228843008 is <TLGeoGroupCountLimit$geoGroupCountLimit: 0x281318670>]
+2025-03-09 03:00:33.537 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281697360> (7479747536205828923)]
+2025-03-09 03:00:33.546 [MTRequestMessageService#0x28354c1e0 response for 7479747527228685312 is <TLmessages_ArchivedStickers$messages_archivedStickers: 0x281697220>]
+2025-03-09 03:00:33.546 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281697300> (7479747536210713979)]
+2025-03-09 03:00:33.546 [MTRequestMessageService#0x28354c1e0 response for 7479747527228525568 is <TLmessages_AllStickers$messages_allStickers: 0x2816e93e0>]
+2025-03-09 03:00:33.546 TLRPCcontacts_getContacts$contacts_getContacts response...
+2025-03-09 03:00:33.771 moment getUnreadMessage statueCode: unauthenticated, statueMessage: Request unauthenticated with Bearer, ip is 99.83.186.166:19527
+2025-03-09 03:00:34.113 ******* Memory warning ******
+2025-03-09 03:00:34.307 web App get Recommend {
+    code = 0;
+    data =     {
+    };
+    message = success;
+}
+2025-03-09 03:00:34.493 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a22360> (7479747536212227991)]
+2025-03-09 03:00:34.493 [MTRequestMessageService#0x28354c1e0 response for 7479747527227439104 is <TLDiscoveryPageConfig$discoveryPageConfig: 0x281a22380>]
+2025-03-09 03:00:34.495 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a4ec80> (7479747536212408309)]
+2025-03-09 03:00:34.495 [MTRequestMessageService#0x28354c1e0 response for 7479747527227761664 is <TLstories_allStories$stories_allStoriesNotModified: 0x281a4fc60>]
+2025-03-09 03:00:34.496 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a4f0e0> (7479747536213680429)]
+2025-03-09 03:00:34.496 [MTRequestMessageService#0x28354c1e0 response for 7479747528253971456 is <TLstories_allStories$stories_allStoriesNotModified: 0x281a4f020>]
+2025-03-09 03:00:34.496 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a4ef20> (7479747536233891347)]
+2025-03-09 03:00:34.496 st requestAllStoriesWithNext - 0 hidden - 0 state - 1738791911:1738791911:0:c16e230a95533614c11c9782884d7995 response - StorySubscriptionsResponse: allStoriesNotModified - 1 hasMore - 0 accountItemUpdated - 0 accountItemCount - 0 itemsCount - 0
+2025-03-09 03:00:34.496 st story data hasMoreToken - 1738791911:1738791911:0:c16e230a95533614c11c9782884d7995
+2025-03-09 03:00:34.496 st requestAllStoriesWithNext - 0 hidden - 1 state - 1738791913:1738791913:0:680097abff3488cb30061f9398577471 response - StorySubscriptionsResponse: allStoriesNotModified - 1 hasMore - 0 accountItemUpdated - 0 accountItemCount - 0 itemsCount - 0
+2025-03-09 03:00:34.496 st story data hasMoreTokenForHidden - 1738791913:1738791913:0:680097abff3488cb30061f9398577471
+2025-03-09 03:00:34.500 [MTRequestMessageService#0x28354c1e0 response for 7479747527229346816 is <TLmessages_FeaturedStickers$messages_featuredStickers: 0x281a42e00>]
+2025-03-09 03:00:35.251 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a2a3a0> (7479747536240635655)]
+2025-03-09 03:00:35.252 [MTRequestMessageService#0x28354c1e0 response for 7479747520302171136 is <TLhelp_urlConfig$urlConfig: 0x2813133b0>]
+2025-03-09 03:00:35.254 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a24980> (7479747536265829481)]
+2025-03-09 03:00:35.254 [MTRequestMessageService#0x28354c1e0 response for 7479747527226450944 is (
+    "<TLDataJSON$dataJSON: 0x28131fae0>"
+)]
+2025-03-09 03:00:35.254 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a248c0> (7479747536293591731)]
+2025-03-09 03:00:35.254 [MTRequestMessageService#0x28354c1e0 response for 7479747527226644480 is <TLcontacts_Contacts$contacts_contactsNotModified: 0x28131fb20>]
+2025-03-09 03:00:35.254 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a24900> (7479747536293693987)]
+2025-03-09 03:00:35.254 [MTRequestMessageService#0x28354c1e0 response for 7479747527226953728 is 1]
+2025-03-09 03:00:35.254 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a29fe0> (7479747536312442579)]
+2025-03-09 03:00:35.255 [MTRequestMessageService#0x28354c1e0 response for 7479747527227276288 is <TLUserFullPt$userFullPt: 0x281a29f80>]
+2025-03-09 03:00:35.256 st address deleteAll complete
+2025-03-09 03:00:35.259 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a29f40> (7479747536518041521)]
+2025-03-09 03:00:35.260 [MTRequestMessageService#0x28354c1e0 response for 7479747527225545728 is <TLDataJSON$dataJSON: 0x281313860>]
+2025-03-09 03:00:35.261 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a29ec0> (7479747536519894173)]
+2025-03-09 03:00:35.261 [MTRequestMessageService#0x28354c1e0 response for 7479747527228075008 is <TLDataJSON$dataJSON: 0x2813138a0>]
+2025-03-09 03:00:35.261 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a29de0> (7479747536521007965)]
+2025-03-09 03:00:35.261 [MTRequestMessageService#0x28354c1e0 response for 7479747527225721856 is <TLDataJSON$dataJSON: 0x281313390>]
+2025-03-09 03:00:35.261 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a29da0> (7479747536522427417)]
+2025-03-09 03:00:35.261 [MTRequestMessageService#0x28354c1e0 response for 7479747527227920384 is <TLDataJSON$dataJSON: 0x281313830>]
+2025-03-09 03:00:35.261 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a29d40> (7479747536853297311)]
+2025-03-09 03:00:35.263 [MTRequestMessageService#0x28354c1e0 response for 7479747527227601920 is <TLupdates_Difference$updates_difference: 0x280bffe00>]
+2025-03-09 03:00:35.263 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281311500> (7479747537238320619)]
+2025-03-09 03:00:35.263 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281a297e0> (7479747537262428145)]
+2025-03-09 03:00:35.263 [MTRequestMessageService#0x28354c1e0 response for 7479747529285291008 is <TLMessages$token: 0x2813134b0>]
+2025-03-09 03:00:35.344 PTDigital--wss://quotespush.lynnconway.xyz/quotes_push?token=%31%6C%6D%42%73%41%49%6E%4A%57%58%6A%32%6E%53%55%67%35%6A%6E%56%43%39%70%70%4F%33%38%4F%66%6B%65%63%4F%71%64%64%64%6B%55%77%4C%64%79%71%4E%31%54%47%70%54%49%37%59%34%55%65%42%63%54%39%41%6C%4A retryCount - 0
+2025-03-09 03:00:35.360 getdifference--difference
+2025-03-09 03:00:35.362 otherUpdates:
+(
+    "<TLUpdate$updateNewChannelMessage: 0x281a29ca0>",
+    "<TLUpdate$updateReadChannelInbox: 0x281310c50>",
+    "<TLUpdate$updateReadChannelOutbox: 0x281312ac0>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29c80>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29ce0>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29cc0>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29c20>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29c40>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29bc0>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29b60>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29ba0>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29b80>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29ae0>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29b20>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29a40>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29c00>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29a00>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29aa0>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29b40>",
+    "<TLUpdate$updateChannelTooLong: 0x281a299c0>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29be0>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29a80>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29ac0>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29a20>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29900>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29940>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29980>",
+    "<TLUpdate$updateChannelTooLong: 0x281a29a60>",
+    "<TLUpdate$updateChannelAvailableMessages: 0x281312f30>",
+    "<TLUpdate$updateChannelAvailableMessages: 0x2813133d0>",
+    "<TLUpdate$updateReadChannelInbox: 0x281312b60>",
+    "<TLUpdate$updateReadChannelInbox: 0x281310740>"
+)
+2025-03-09 03:00:35.367 update: <TLUpdate$updateNewChannelMessage: 0x281a29ca0>, pts: 16461, ptsCount: 1
+2025-03-09 03:00:35.367 update: <TLUpdate$updateReadChannelInbox: 0x281310c50>
+2025-03-09 03:00:35.367 update: <TLUpdate$updateReadChannelOutbox: 0x281312ac0>
+2025-03-09 03:00:35.367 update: <TLUpdate$updateChannelTooLong: 0x281a29c80>
+2025-03-09 03:00:35.367 update: <TLUpdate$updateChannelTooLong: 0x281a29ce0>
+2025-03-09 03:00:35.367 update: <TLUpdate$updateChannelTooLong: 0x281a29cc0>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29c20>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29c40>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29bc0>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29b60>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29ba0>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29b80>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29ae0>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29b20>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29a40>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29c00>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29a00>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29aa0>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29b40>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a299c0>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29be0>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29a80>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29ac0>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29a20>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29900>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29940>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29980>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelTooLong: 0x281a29a60>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelAvailableMessages: 0x281312f30>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateChannelAvailableMessages: 0x2813133d0>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateReadChannelInbox: 0x281312b60>
+2025-03-09 03:00:35.368 update: <TLUpdate$updateReadChannelInbox: 0x281310740>
+2025-03-09 03:00:35.456 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281bb3480> (7479747537705337856/0)]
+2025-03-09 03:00:35.458 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281b9bcc0> (7479747537711939584/0)]
+2025-03-09 03:00:35.458 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281bb3640> (7479747537713288192/0)]
+2025-03-09 03:00:35.459 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281bb3be0> (7479747537716067328/0)]
+2025-03-09 03:00:35.459 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281bb3ee0> (7479747537718842368/0)]
+2025-03-09 03:00:35.460 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281bb1da0> (7479747537723523072/0)]
+2025-03-09 03:00:35.461 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba3180> (7479747537726139392/0)]
+2025-03-09 03:00:35.461 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba0260> (7479747537728600064/0)]
+2025-03-09 03:00:35.462 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba03e0> (7479747537730880512/0)]
+2025-03-09 03:00:35.465 DB Error: 1 "no such column: timestamp"
+2025-03-09 03:00:35.465 DB Query: SELECT mid, timestamp FROM channel_messages_v32 WHERE cid=? AND mid>=? LIMIT 1
+2025-03-09 03:00:35.465 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:00:35.473 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba06e0> (7479747537778537472/0)]
+2025-03-09 03:00:35.474 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba0560> (7479747537781402624/0)]
+2025-03-09 03:00:35.475 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281b9b1c0> (7479747537786860544/0)]
+2025-03-09 03:00:35.476 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281b9ae00> (7479747537789652992/0)]
+2025-03-09 03:00:35.476 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281b9a9a0> (7479747537792015360/0)]
+2025-03-09 03:00:35.477 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281b9a660> (7479747537794415616/0)]
+2025-03-09 03:00:35.477 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba1360> (7479747537797151744/0)]
+2025-03-09 03:00:35.478 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba1760> (7479747537799480320/0)]
+2025-03-09 03:00:35.478 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba1900> (7479747537801712640/0)]
+2025-03-09 03:00:35.479 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba1c00> (7479747537804100608/0)]
+2025-03-09 03:00:35.480 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba1f00> (7479747537807219712/0)]
+2025-03-09 03:00:35.482 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba2300> (7479747537815096320/0)]
+2025-03-09 03:00:35.482 DB Error: 1 "no such column: timestamp"
+2025-03-09 03:00:35.482 DB Query: SELECT mid, timestamp FROM channel_messages_v32 WHERE cid=? AND mid>=? LIMIT 1
+2025-03-09 03:00:35.482 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:00:35.493 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba24a0> (7479747537864827904/0)]
+2025-03-09 03:00:35.494 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281ba3440> (7479747537867740160/0)]
+2025-03-09 03:00:35.495 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281b99ec0> (7479747537872872448/0)]
+2025-03-09 03:00:35.496 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281b99ae0> (7479747537877648384/0)]
+2025-03-09 03:00:35.497 difference qts: 0
+2025-03-09 03:00:35.497 Unread count correct: 0(expect channel) + 0 == 0
+2025-03-09 03:00:35.497 ===== pts: 543018
+2025-03-09 03:00:35.500 (TGDatabase apply pts: 543018, date: 1741514433, qts: 0, seq: 0)
+2025-03-09 03:00:35.500 [MTProto#0x28207b700 preparing <TLRPCAddNewContact$getContactsApplyDifference: 0x281b9b2c0> (7479747537895072768/0)]
+2025-03-09 03:00:35.501 [MTProto#0x28207b700 preparing <TLRPChelp_getInviteText$help_getInviteText: 0x281319ee0> (7479747537896644608/0)]
+2025-03-09 03:00:35.502 [MTProto#0x28207b700 preparing <TLRPChelp_getConfig$help_getConfig: 0x28131b010> (7479747537897331712/0)]
+2025-03-09 03:00:35.502 [MTProto#0x28207b700 preparing <TLRPCusers_getUsers$users_getUsers: 0x281318930> (7479747537897511936/0)]
+2025-03-09 03:00:35.502 [MTProto#0x28207b700 begin time sync]
+2025-03-09 03:00:35.503 [MTTcpTransport#83224a00 skipping transaction request]
+2025-03-09 03:00:35.503 [MTProto#0x28207b700 preparing <TLRPCphone_getCallConfig$phone_getCallConfig: 0x281311780> (7479747537905857536/0)]
+2025-03-09 03:00:35.503 [MTProto#0x28207b700 preparing getFutureSalts (7479747537907184640/0)]
+2025-03-09 03:00:35.503 [MTProto#0x28207b700 preparing getFutureSalts (7479747537908271104/0)]
+2025-03-09 03:00:35.539 Device token 000: {length = 32, bytes = 0x16cec251 05dda80a 23ae6bca a22ba9dc ... dab4bf72 985ccc54 }
+2025-03-09 03:00:35.539 Device VoIP token: 16cec25105dda80a23ae6bcaa22ba9dc943a1cb16e371cf0dab4bf72985ccc54
+2025-03-09 03:00:35.540 [MTProto#0x28207b700 preparing <TLRPChelp_getAppUpdate$help_getAppUpdate: 0x280395170> (7479747538065947648/0)]
+2025-03-09 03:00:35.540 [MTProto#0x28207b700 preparing <TLRPCcontacts_getStatuses$contacts_getStatuses: 0x281319e60> (7479747538066485248/0)]
+2025-03-09 03:00:35.541 [MTProto#0x28207b700 preparing <TLRPCaccount_registerDevice$account_registerDevice: 0x280ba6b40> (7479747538067035136/0)]
+2025-03-09 03:00:35.561 DB Error: 1 "no such column: timestamp"
+2025-03-09 03:00:35.561 DB Query: SELECT mid, timestamp FROM channel_messages_v32 WHERE cid=? AND mid>=? LIMIT 1
+2025-03-09 03:00:35.561 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:00:35.571 [MTProto#0x28207b700 preparing <TLRPCchannels_leaveChannel$channels_leaveChannel: 0x28130cea0> (7479747538197765120/0)]
+2025-03-09 03:00:35.571 [MTProto#0x28207b700 preparing <TLRPCcontacts_resetTopPeerRating$contacts_resetTopPeerRating: 0x281b98a80> (7479747538199440384/0)]
+2025-03-09 03:00:35.581 DB Error: 1 "no such column: timestamp"
+2025-03-09 03:00:35.581 DB Query: SELECT mid, timestamp FROM channel_messages_v32 WHERE cid=? AND mid>=? LIMIT 1
+2025-03-09 03:00:35.581 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:00:35.584 Device token 000: {length = 32, bytes = 0x064d9abe 70319f77 fc267067 fff348b1 ... 525b1666 c589d557 }
+2025-03-09 03:00:35.584 Device token: 064d9abe70319f77fc267067fff348b1c2259010488ddd45525b1666c589d557
+2025-03-09 03:00:35.584 [MTProto#0x28207b700 preparing <TLRPCaccount_registerDevice$account_registerDevice: 0x2804eda00> (7479747538256253952/0)]
+2025-03-09 03:00:35.591 [MTProto#0x28207b700 preparing <TLRPCcontacts_resetTopPeerRating$contacts_resetTopPeerRating: 0x281ba2da0> (7479747538285683712/0)]
+2025-03-09 03:00:35.600 DB Error: 1 "no such column: timestamp"
+2025-03-09 03:00:35.600 DB Query: SELECT mid, timestamp FROM channel_messages_v32 WHERE cid=? AND mid>=? LIMIT 1
+2025-03-09 03:00:35.600 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:00:35.620 [MTProto#0x28207b700 preparing <TLRPCcontacts_resetTopPeerRating$contacts_resetTopPeerRating: 0x281b982a0> (7479747538404640768/0)]
+2025-03-09 03:00:35.627 DB Error: 1 "no such column: timestamp"
+2025-03-09 03:00:35.628 DB Query: SELECT mid, timestamp FROM channel_messages_v32 WHERE cid=? AND mid>=? LIMIT 1
+2025-03-09 03:00:35.628 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:00:35.641 ===== Setting presence: online
+2025-03-09 03:00:35.641 Continue to watch for actor "/tg/service/synchronizeactionqueue/(global)"
+2025-03-09 03:00:35.641 Continue to watch for actor "/tg/service/synchronizeactionqueue/(global)"
+2025-03-09 03:00:35.641 Continue to watch for actor "/tg/service/synchronizeactionqueue/(global)"
+2025-03-09 03:00:35.642 [MTProto#0x28207b700 preparing <TLRPCcontacts_resetTopPeerRating$contacts_resetTopPeerRating: 0x281b984e0> (7479747538503283712/0)]
+2025-03-09 03:00:35.642 [MTProto#0x28207b700 preparing <TLRPCaccount_updateStatus$account_updateStatus: 0x281bc40c0> (7479747538503622656/0)]
+2025-03-09 03:00:35.701 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc58a0> (7479747545728568187)]
+2025-03-09 03:00:35.701 [MTRequestMessageService#0x28354c1e0 response for 7479747537713288192 is <TLUpdates_ChannelDifference$empty: 0x281bc4000>]
+2025-03-09 03:00:35.711 st story data updateItemPeer - 91399161 hidden - 0 newPeerHidden - 0
+2025-03-09 03:00:35.711 st story data accountItem - SubscriptionsItem - 0x280ba43c0 storyCount - 0 unseenCount - 0 hidden - 0 hasPending - 0 readModel - (null) itemModels count - 0 hasMoreToken - 1738791911:1738791911:0:c16e230a95533614c11c9782884d7995
+2025-03-09 03:00:35.711 st story data autoExpiredStories cancel hasAutoExpiredStoriesTask true ~~
+2025-03-09 03:00:35.711 st story data updateItemPeer - 91399161 hidden - 0 newPeerHidden - 0
+2025-03-09 03:00:35.711 st story data accountItem - SubscriptionsItem - 0x280ba4300 storyCount - 0 unseenCount - 0 hidden - 0 hasPending - 0 readModel - (null) itemModels count - 0 hasMoreToken - 1738791911:1738791911:0:c16e230a95533614c11c9782884d7995
+2025-03-09 03:00:35.711 st story data autoExpiredStories cancel hasAutoExpiredStoriesTask true ~~
+2025-03-09 03:00:35.767 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc66a0> (7479747545746230475)]
+2025-03-09 03:00:35.775 [MTRequestMessageService#0x28354c1e0 response for 7479747537711939584 is <TLUpdates_ChannelDifference$empty: 0x281bc4000>]
+2025-03-09 03:00:35.775 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc59e0> (7479747545747818151)]
+2025-03-09 03:00:35.775 [MTRequestMessageService#0x28354c1e0 response for 7479747537723523072 is <TLUpdates_ChannelDifference$empty: 0x281bc57e0>]
+2025-03-09 03:00:35.775 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc4500> (7479747545768532639)]
+2025-03-09 03:00:35.775 [MTRequestMessageService#0x28354c1e0 response for 7479747537797151744 is <TLUpdates_ChannelDifference$empty: 0x281bc46a0>]
+2025-03-09 03:00:35.775 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc5820> (7479747545800890775)]
+2025-03-09 03:00:35.775 [MTRequestMessageService#0x28354c1e0 response for 7479747537786860544 is <TLUpdates_ChannelDifference$empty: 0x281bc5940>]
+2025-03-09 03:00:35.775 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb26e0> (7479747545805002891)]
+2025-03-09 03:00:35.776 [MTRequestMessageService#0x28354c1e0 response for 7479747537789652992 is <TLUpdates_ChannelDifference$empty: 0x281bb2ac0>]
+2025-03-09 03:00:35.776 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc4ec0> (7479747545818044003)]
+2025-03-09 03:00:35.776 [MTRequestMessageService#0x28354c1e0 response for 7479747537705337856 is <TLUpdates_ChannelDifference$channelDifference: 0x280be74c0>]
+2025-03-09 03:00:35.776 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb3560> (7479747545870633943)]
+2025-03-09 03:00:35.776 [MTRequestMessageService#0x28354c1e0 response for 7479747537794415616 is <TLUpdates_ChannelDifference$empty: 0x281bb3660>]
+2025-03-09 03:00:35.776 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb3620> (7479747545875318895)]
+2025-03-09 03:00:35.776 [MTRequestMessageService#0x28354c1e0 response for 7479747537781402624 is <TLUpdates_ChannelDifference$empty: 0x281bb26e0>]
+2025-03-09 03:00:35.776 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb1f60> (7479747545885626663)]
+2025-03-09 03:00:35.776 [MTRequestMessageService#0x28354c1e0 response for 7479747537815096320 is <TLUpdates_ChannelDifference$empty: 0x281bc5a80>]
+2025-03-09 03:00:35.777 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc59a0> (7479747545905276839)]
+2025-03-09 03:00:35.777 [MTRequestMessageService#0x28354c1e0 response for 7479747537726139392 is <TLUpdates_ChannelDifference$empty: 0x281bb3460>]
+2025-03-09 03:00:35.777 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc5960> (7479747545909866135)]
+2025-03-09 03:00:35.777 [MTRequestMessageService#0x28354c1e0 response for 7479747537716067328 is <TLUpdates_ChannelDifference$empty: 0x281bc5b00>]
+2025-03-09 03:00:35.777 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc5d20> (7479747545947917457)]
+2025-03-09 03:00:35.777 [MTRequestMessageService#0x28354c1e0 response for 7479747537799480320 is error: 400: INTERNAL_SERVER_ERROR]
+2025-03-09 03:00:35.777 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc5fe0> (7479747545949545815)]
+2025-03-09 03:00:35.778 [MTRequestMessageService#0x28354c1e0 response for 7479747537730880512 is <TLUpdates_ChannelDifference$channelDifference: 0x280b09cc0>]
+2025-03-09 03:00:35.778 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc5ce0> (7479747545963805167)]
+2025-03-09 03:00:35.779 [MTRequestMessageService#0x28354c1e0 response for 7479747537792015360 is <TLUpdates_ChannelDifference$channelDifference: 0x280ba4980>]
+2025-03-09 03:00:35.780 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc6ba0> (7479747545988944019)]
+2025-03-09 03:00:35.780 [MTRequestMessageService#0x28354c1e0 response for 7479747537718842368 is <TLUpdates_ChannelDifference$channelDifference: 0x280b02300>]
+2025-03-09 03:00:35.780 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc6aa0> (7479747545992619635)]
+2025-03-09 03:00:35.783 [MTRequestMessageService#0x28354c1e0 response for 7479747537807219712 is <TLUpdates_ChannelDifference$channelDifference: 0x2804be540>]
+2025-03-09 03:00:35.783 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb17a0> (7479747546004290779)]
+2025-03-09 03:00:35.783 [MTRequestMessageService#0x28354c1e0 response for 7479747537801712640 is <TLUpdates_ChannelDifference$channelDifference: 0x280ba7940>]
+2025-03-09 03:00:35.783 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x28130c0d0> (7479747546010004855)]
+2025-03-09 03:00:35.784 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x28130c050> (7479747546010059835)]
+2025-03-09 03:00:35.784 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc7780> (7479747546015627681)]
+2025-03-09 03:00:35.784 [MTRequestMessageService#0x28354c1e0 response 7479747546015627681 didn't match any request]
+2025-03-09 03:00:35.798 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281becc60> (7479747546015775017)]
+2025-03-09 03:00:35.799 [MTRequestMessageService#0x28354c1e0 response for 7479747537905857536 is <TLDataJSON$dataJSON: 0x2813169b0>]
+2025-03-09 03:00:35.801 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb3c80> (7479747546016818441)]
+2025-03-09 03:00:35.801 [MTRequestMessageService#0x28354c1e0 response 7479747546016818441 didn't match any request]
+2025-03-09 03:00:35.801 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x28130deb0> (7479747546016889915)]
+2025-03-09 03:00:35.801 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb0f80> (7479747546019448443)]
+2025-03-09 03:00:35.802 [MTRequestMessageService#0x28354c1e0 response for 7479747537896644608 is <TLhelp_InviteText$help_inviteText: 0x28130e020>]
+2025-03-09 03:00:35.821 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb1120> (7479747546036597267)]
+2025-03-09 03:00:35.821 [MTRequestMessageService#0x28354c1e0 response for 7479747538065947648 is <TLhelp_AppUpdate$help_noAppUpdate: 0x28130eca0>]
+2025-03-09 03:00:35.821 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb1140> (7479747546039985915)]
+2025-03-09 03:00:35.821 [MTRequestMessageService#0x28354c1e0 response for 7479747537804100608 is <TLUpdates_ChannelDifference$channelDifference: 0x280ba4280>]
+2025-03-09 03:00:35.821 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb15c0> (7479747546040374039)]
+2025-03-09 03:00:35.821 [MTRequestMessageService#0x28354c1e0 response for 7479747537895072768 is <TLupdates_ContactsApplyDifference$contactsApplyDifferenceEmpty: 0x28130f4f0>]
+2025-03-09 03:00:35.821 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb1560> (7479747546043102991)]
+2025-03-09 03:00:35.821 [MTRequestMessageService#0x28354c1e0 response for 7479747537728600064 is <TLUpdates_ChannelDifference$channelDifference: 0x280ba3340>]
+2025-03-09 03:00:35.821 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb0be0> (7479747546044834699)]
+2025-03-09 03:00:35.821 [MTRequestMessageService#0x28354c1e0 response for 7479747537877648384 is <TLUpdates_ChannelDifference$empty: 0x281bb0b00>]
+2025-03-09 03:00:35.821 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb0380> (7479747546045022715)]
+2025-03-09 03:00:35.821 [MTRequestMessageService#0x28354c1e0 response for 7479747537872872448 is <TLUpdates_ChannelDifference$empty: 0x281bb0660>]
+2025-03-09 03:00:35.821 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb0580> (7479747546051327223)]
+2025-03-09 03:00:35.821 [MTRequestMessageService#0x28354c1e0 response for 7479747538067035136 is 1]
+2025-03-09 03:00:35.821 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bb04c0> (7479747546053555901)]
+2025-03-09 03:00:35.821 [MTRequestMessageService#0x28354c1e0 response for 7479747537897511936 is (
+    "<TLUser$user: 0x28265c000>"
+)]
+2025-03-09 03:00:35.821 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281becbc0> (7479747546063039051)]
+2025-03-09 03:00:35.822 [MTRequestMessageService#0x28354c1e0 response for 7479747537897331712 is <TLConfig$config: 0x282037020>]
+2025-03-09 03:00:35.822 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bec9a0> (7479747546067837251)]
+2025-03-09 03:00:35.822 [MTRequestMessageService#0x28354c1e0 response for 7479747538066485248 is (
+    "<TLContactStatus$contactStatus: 0x281becda0>",
+    "<TLContactStatus$contactStatus: 0x281bece20>",
+    "<TLContactStatus$contactStatus: 0x281bed000>"
+)]
+2025-03-09 03:00:35.822 st config flag - 836424762
+2025-03-09 03:00:35.878 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bed1c0> (7479747546160352051)]
+2025-03-09 03:00:35.880 [MTRequestMessageService#0x28354c1e0 response for 7479747537778537472 is <TLUpdates_ChannelDifference$channelDifference: 0x280bcd840>]
+2025-03-09 03:00:35.880 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281becfe0> (7479747546211322433)]
+2025-03-09 03:00:35.880 [MTRequestMessageService#0x28354c1e0 response for 7479747538197765120 is error: 400: INTERNAL_SERVER_ERROR]
+2025-03-09 03:00:35.881 Exit a disbanded group, don‘t handle this error<GROUP_NOT_EXIST_ERROR>
+2025-03-09 03:00:35.881 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281ba0c80> (7479747546215844661)]
+2025-03-09 03:00:35.881 [MTRequestMessageService#0x28354c1e0 response for 7479747538199440384 is 1]
+2025-03-09 03:00:35.881 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281ba25c0> (7479747546307522747)]
+2025-03-09 03:00:35.881 [MTRequestMessageService#0x28354c1e0 response for 7479747537864827904 is <TLchannelDifferenceTooLong: 0x280ba4840>]
+2025-03-09 03:00:35.881 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281ba3380> (7479747546312568331)]
+2025-03-09 03:00:35.881 [MTRequestMessageService#0x28354c1e0 response for 7479747537867740160 is <TLUpdates_ChannelDifference$channelDifference: 0x280ba7b40>]
+2025-03-09 03:00:35.881 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bed2c0> (7479747546361436483)]
+2025-03-09 03:00:35.881 [MTRequestMessageService#0x28354c1e0 response for 7479747538256253952 is 1]
+2025-03-09 03:00:35.881 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bed4a0> (7479747546365503517)]
+2025-03-09 03:00:35.881 [MTRequestMessageService#0x28354c1e0 response for 7479747538285683712 is 1]
+2025-03-09 03:00:35.881 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bed220> (7479747546368241265)]
+2025-03-09 03:00:35.881 [MTRequestMessageService#0x28354c1e0 response for 7479747538404640768 is 1]
+2025-03-09 03:00:35.882 [MTProto#0x28207b700 preparing <TLRPCchannels_leaveChannel$channels_leaveChannel: 0x281318a40> (7479747539533323264/0)]
+2025-03-09 03:00:36.045 moment list needRequest -- lastID: 0 loglastMomID: 0
+2025-03-09 03:00:36.045 moment updateCover uid: 91399161
+2025-03-09 03:00:36.046 moment v2_momentList statueCode: ok, statueMessage: , ip is 99.83.186.166:19527
+2025-03-09 03:00:36.051 [Discover] momentsCount - 0 momentArrayCount - 0
+2025-03-09 03:00:36.104 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281313e40> (7479747546522102379)]
+2025-03-09 03:00:36.107 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc6ae0> (7479747546526593817)]
+2025-03-09 03:00:36.107 [MTRequestMessageService#0x28354c1e0 response for 7479747538503622656 is 1]
+2025-03-09 03:00:36.107 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bc71a0> (7479747546526648797)]
+2025-03-09 03:00:36.107 [MTRequestMessageService#0x28354c1e0 response for 7479747538503283712 is 1]
+2025-03-09 03:00:36.141 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x281bc7ac0> (7479747540645174272/0)]
+2025-03-09 03:00:36.225 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x281bc1460> (7479747541006265344/0)]
+2025-03-09 03:00:36.333 (TGChannelStateSignals ChannelDifference for -4378059508 is tooLong, topMessage: 148778)
+2025-03-09 03:00:36.333 (TGDatabase addTrailingHoleToChannelAndDispatch for -4378059508: messages: 1 items, filteredMessages: 148778, holes: 1...148777)
+2025-03-09 03:00:36.336 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bfc0e0> (7479747547495033289)]
+2025-03-09 03:00:36.337 [MTRequestMessageService#0x28354c1e0 response for 7479747539533323264 is error: 400: INTERNAL_SERVER_ERROR]
+2025-03-09 03:00:36.337 Exit a disbanded group, don‘t handle this error<GROUP_NOT_EXIST_ERROR>
+2025-03-09 03:00:36.337 [MTProto#0x28207b700 preparing <TLRPCchannels_leaveChannel$channels_leaveChannel: 0x28130ce80> (7479747541488208896/0)]
+2025-03-09 03:00:36.357 messages_getHistory-1 log
+channel_id:83092212min_id:1 max_id:2147483647 offset_id:148650 add_offset:-32
+2025-03-09 03:00:36.357 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x2803f0570> (7479747541575103488/0)]
+2025-03-09 03:00:36.412 store enable = 1048576
+2025-03-09 03:00:36.413 st badge updateConfig discoverBadgeDate - 61 previousDiscoverBadgeDate - 61
+2025-03-09 03:00:36.413 pcPayEnabled changed to 0
+2025-03-09 03:00:36.515 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281bfd220> (7479747548685499251)]
+2025-03-09 03:00:36.516 [MTRequestMessageService#0x28354c1e0 response for 7479747540645174272 is <TLmessages_Messages$messages_channelMessages: 0x280ba3e00>]
+2025-03-09 03:00:36.580 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281be9100> (7479747549069602283)]
+2025-03-09 03:00:36.580 [MTRequestMessageService#0x28354c1e0 response for 7479747541006265344 is <TLmessages_Messages$messages_channelMessages: 0x280bb0080>]
+2025-03-09 03:00:36.700 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281be4f80> (7479747549454822401)]
+2025-03-09 03:00:36.700 [MTRequestMessageService#0x28354c1e0 response for 7479747541488208896 is error: 400: INTERNAL_SERVER_ERROR]
+2025-03-09 03:00:36.700 Exit a disbanded group, don‘t handle this error<GROUP_NOT_EXIST_ERROR>
+2025-03-09 03:00:36.700 [MTProto#0x28207b700 preparing <TLRPCchannels_leaveChannel$channels_leaveChannel: 0x281318bb0> (7479747543048088576/0)]
+2025-03-09 03:00:36.875 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281be47c0> (7479747550099722315)]
+2025-03-09 03:00:36.875 [MTRequestMessageService#0x28354c1e0 response for 7479747541575103488 is <TLmessages_Messages$messages_channelMessages: 0x280444b00>]
+2025-03-09 03:00:36.884 messages_getHistory-1 log
+pts:0 messagescount:32
+2025-03-09 03:00:37.053 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281be5480> (7479747551004779197)]
+2025-03-09 03:00:37.053 [MTRequestMessageService#0x28354c1e0 response for 7479747543048088576 is error: 400: INTERNAL_SERVER_ERROR]
+2025-03-09 03:00:37.054 Exit a disbanded group, don‘t handle this error<GROUP_NOT_EXIST_ERROR>
+2025-03-09 03:00:37.256 (index) index cleared
+2025-03-09 03:00:38.394 st story enabled - 1 _storiesEnabled - 1
+2025-03-09 03:00:38.394 st story enabled for settings - 1 _storiesEnabled - 1
+2025-03-09 03:00:38.394 st tabbar walletHidden -- 0
+2025-03-09 03:00:38.394 st story data updateItemPeer - 91399161 hidden - 0 newPeerHidden - 0
+2025-03-09 03:00:38.394 st story data accountItem - SubscriptionsItem - 0x28044a540 storyCount - 0 unseenCount - 0 hidden - 0 hasPending - 0 readModel - (null) itemModels count - 0 hasMoreToken - 1738791911:1738791911:0:c16e230a95533614c11c9782884d7995
+2025-03-09 03:00:38.395 st story data autoExpiredStories cancel hasAutoExpiredStoriesTask true ~~
+2025-03-09 03:00:38.409 PTDigital--WebSocket  opened
+2025-03-09 03:00:38.489 (index) index 13 items completed
+2025-03-09 03:00:38.892 [MTProto#0x28207b700 preparing <TLRPChelp_getConfig$help_getConfig: 0x281304810> (7479747552461626368/0)]
+2025-03-09 03:00:39.128 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281b148a0> (7479747560442093147)]
+2025-03-09 03:00:39.128 [MTRequestMessageService#0x28354c1e0 response for 7479747552461626368 is <TLConfig$config: 0x2820e1680>]
+2025-03-09 03:00:39.128 dcip--manager endConnect exist host-99.83.186.166:20335-tcp
+2025-03-09 03:00:39.128 dcip--reportNetConnectionSuccessSendData~~~~~~~~~!!!!!
+2025-03-09 03:00:39.131 dcip--manager udp tcp send data = {"keyID":"-9078302989561037549","use":"report","connect":{"over":"tcp","costTime":0,"srvHost":"99.83.186.166:20335","errNo":0,"errStr":""},"userID":"91399161","time":"1741514439","phoneNo":"","v":"2.43.207055"}
+2025-03-09 03:00:39.132 dcip--udp reportConnectionSuccess begin ~~~~~!!!
+2025-03-09 03:00:39.132 dcip--tcp reportConnectionSuccess begin ~~~~~!!!
+2025-03-09 03:00:39.135 [TGDatacenterWatchdogActor#0x283a68bd0 updating datacenter 3 address set to [52.223.21.70:20335 (media: no, cdn: no, static: no)]]
+2025-03-09 03:00:39.135 [MTContext#82d71700: address set updated for 3]
+2025-03-09 03:00:39.135 dcip--dns For UDP start
+2025-03-09 03:00:39.135 dcip--dns For TCP start
+2025-03-09 03:00:39.142 [TGDatacenterWatchdogActor#0x283a68bd0 updating datacenter 2 address set to [52.223.21.70:20335 (media: no, cdn: no, static: no), 52.223.21.70:8888 (media: yes, cdn: no, static: no)]]
+2025-03-09 03:00:39.143 [MTContext#82d71700: address set updated for 2]
+2025-03-09 03:00:39.148 [TGDatacenterWatchdogActor#0x283a68bd0 updating datacenter 5 address set to [52.223.21.70:20335 (media: no, cdn: no, static: no)]]
+2025-03-09 03:00:39.148 [MTContext#82d71700: address set updated for 5]
+2025-03-09 03:00:39.158 [TGDatacenterWatchdogActor#0x283a68bd0 updating datacenter 1 address set to [52.223.21.70:20335 (media: no, cdn: no, static: no)]]
+2025-03-09 03:00:39.158 [MTContext#82d71700: address set updated for 1]
+2025-03-09 03:00:39.165 [TGDatacenterWatchdogActor#0x283a68bd0 updating datacenter 4 address set to [52.223.21.70:20335 (media: no, cdn: no, static: no)]]
+2025-03-09 03:00:39.165 [MTContext#82d71700: address set updated for 4]
+2025-03-09 03:00:39.167 [TGDatacenterWatchdogActor#0x283a68bd0 processed 6 datacenter addresses from datacenter 2]
+2025-03-09 03:00:40.639 dcip--DNS For UDP success result = 34.64.69.209
+2025-03-09 03:00:40.639 dcip--DNS For TCP success result = 16.162.178.1
+2025-03-09 03:00:40.640 dcip--tcp reportConnectionSuccess ip - 16.162.178.1 ~~~~~!!!
+2025-03-09 03:00:40.640 dcip--udp reportConnectionSuccess ip - 34.64.69.209 ~~~~~!!!
+2025-03-09 03:00:40.640 dcip--tcp connect begin~~!! with host - 16.162.178.1
+2025-03-09 03:00:40.640 dcip--DNS For TCP success result = 43.199.121.14
+2025-03-09 03:00:40.641 dcip--DNS For UDP success result = 34.92.67.240
+2025-03-09 03:00:40.643 send udp package success(2)
+2025-03-09 03:00:40.842 Connection time: 201.035023 ms, interface: WAN
+2025-03-09 03:00:40.842 dcip--tcp didConnect with host - 16.162.178.1
+2025-03-09 03:00:41.084 dcip--tcp received package with host 16.162.178.1 result = {
+    use = report;
+    v = 4;
+} tag - 11
+2025-03-09 03:00:41.084 dcip--tcp disconnect with host 16.162.178.1 errorCode --7 error -- Socket closed by remote peer
+2025-03-09 03:00:41.642 dcip--udp udp resend data to host 34.64.69.209 data _resendNum -- 0
+2025-03-09 03:00:41.644 send udp package success(1)
+2025-03-09 03:00:42.642 dcip--udp udp resend data to host 34.64.69.209 data _resendNum -- 1
+2025-03-09 03:00:42.644 send udp package success(1)
+2025-03-09 03:00:43.643 dcip--udp udp resend data to host 34.64.69.209 data _resendNum -- 2
+2025-03-09 03:00:43.644 send udp package success(1)
+2025-03-09 03:00:44.642 dcip--udp udp resend data to host 34.64.69.209 data _resendNum -- 3
+2025-03-09 03:00:44.643 send udp package success(1)
+2025-03-09 03:00:48.263 !=========== -[TGAppDelegate application:didFinishLaunchingWithOptions:]_block_invoke Time: 17.905533
+2025-03-09 03:00:48.264 root controller ready
+2025-03-09 03:00:48.825 >>>>>>currentType=8  status=1
+2025-03-09 03:00:48.825 >>>>>>currentType=1  status=1
+2025-03-09 03:00:48.825 >>>>>>currentType=6  status=1
+2025-03-09 03:00:48.825 >>>>>>currentType=11  status=1
+2025-03-09 03:00:48.825 >>>>>>currentType=1  status=1
+2025-03-09 03:00:48.825 >>>>>>currentType=6  status=1
+2025-03-09 03:00:48.826 st advert timeInterval - 1741514448 secretModel.cache - 1739257200
+2025-03-09 03:00:48.832 st advert getAdverts begin identifier - PTAdvertManager-update-0x2811fc7a0
+2025-03-09 03:00:48.833 [MTProto#0x28207b700 preparing <TLRPCadverts_getAdverts$adverts_getAdverts: 0x281300fd0> (7479747595156737024/0)]
+2025-03-09 03:00:49.054 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2814e0d80> (7479747603092744129)]
+2025-03-09 03:00:49.055 [MTRequestMessageService#0x28354c1e0 response for 7479747595156737024 is (
+    "<TLDataJSON$dataJSON: 0x28130bae0>"
+)]
+2025-03-09 03:00:50.324 [MTProto#0x28207b700 preparing <TLRPCmessages_getFavedStickers$messages_getFavedStickers: 0x281301660> (7479747601560085504/0)]
+2025-03-09 03:00:50.324 LiveLocationManager: subscribed for frequent location updates with peerId -4378059508
+2025-03-09 03:00:50.331 [MTProto#0x28207b700 preparing <TLRPCchannels$getFullChannelPt: 0x2814e13e0> (7479747601592474624/0)]
+2025-03-09 03:00:50.332 [MTProto#0x28207b700 preparing <TLRPCchannels_getParticipants$channels_getParticipants: 0x281ca2580> (7479747601596064768/0)]
+2025-03-09 03:00:50.337 [MTProto#0x28207b700 preparing <TLRPCmessages_getRecentLocations$messages_getRecentLocations: 0x2814e3880> (7479747601619489792/0)]
+2025-03-09 03:00:50.341 (loading conversation state sync)
+2025-03-09 03:00:50.348 Joining watcher to the watchers of "/img/(placeholder://?type=group-avatar&w=37&h=37&cid=-4378059508)"
+2025-03-09 03:00:50.348 Joining watcher to the watchers of "/img/(placeholder://?type=group-avatar&w=37&h=37&cid=-4378059508)"
+2025-03-09 03:00:50.475 retrunmode = (null)
+2025-03-09 03:00:50.503 [MTProto#0x28207b700 preparing <TLRPCAlert_getFraudAlert$getFraudAlert: 0x2814b2700> (7479747602333094912/0)]
+2025-03-09 03:00:50.508 messages_getHistory-1 log
+channel_id:83092212min_id:1 max_id:2147483647 offset_id:148650 add_offset:-32
+2025-03-09 03:00:50.509 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281cdfba0> (7479747602355420160/0)]
+2025-03-09 03:00:50.551 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2814d4dc0> (7479747609516665943)]
+2025-03-09 03:00:50.552 [MTRequestMessageService#0x28354c1e0 response for 7479747601560085504 is <TLmessages_FavedStickers$messages_favedStickers: 0x281438300>]
+2025-03-09 03:00:50.617 [MTProto#0x28207b700 preparing <TLRPCchannels_getFullChannel$channels_getFullChannel: 0x28133c510> (7479747602819026944/0)]
+2025-03-09 03:00:50.619 [MTProto#0x28207b700 preparing <TLRPCchannels_readHistory$channels_readHistory: 0x281436d20> (7479747602827290624/0)]
+2025-03-09 03:00:50.625 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2814f9440> (7479747602853201920/0)]
+2025-03-09 03:00:50.625 [MTProto#0x28207b700 preparing <TLRPCcontacts_getTopPeers$contacts_getTopPeers: 0x2814fb1c0> (7479747602856779776/0)]
+2025-03-09 03:00:50.729 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2814fbca0> (7479747609987657655)]
+2025-03-09 03:00:50.730 [MTRequestMessageService#0x28354c1e0 response for 7479747601592474624 is <TLmessages_ChatFull$messages_chatFull: 0x2814fa4a0>]
+2025-03-09 03:00:50.731 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2814faba0> (7479747610052554243)]
+2025-03-09 03:00:50.731 [MTRequestMessageService#0x28354c1e0 response for 7479747601596064768 is <TLchannels_ChannelParticipants$channels_channelParticipants: 0x2814371c0>]
+2025-03-09 03:00:50.735 channelMembers result: (null) -- <TLChannelParticipant$channelParticipantCreatorV3: 0x281cfe580>
+2025-03-09 03:00:50.735 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2814370e0> (7479747610070551877)]
+2025-03-09 03:00:50.736 [MTRequestMessageService#0x28354c1e0 response for 7479747601619489792 is <TLmessages_Messages$messages_channelMessages: 0x280bcd500>]
+2025-03-09 03:00:50.741 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281437280> (7479747610280917133)]
+2025-03-09 03:00:50.741 [MTRequestMessageService#0x28354c1e0 response for 7479747602333094912 is <TLAlert_FraudAlert$fraudAlert: 0x281cfee20>]
+2025-03-09 03:00:50.779 TLRPCchannels$getFullChannelPt/full_chat ---- <TLRPCchannels$channelFullPtV3: 0x282af62f0>
+2025-03-09 03:00:50.952 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28142c000> (7479747610988284847)]
+2025-03-09 03:00:50.953 [MTRequestMessageService#0x28354c1e0 response for 7479747602355420160 is <TLmessages_Messages$messages_channelMessages: 0x280481000>]
+2025-03-09 03:00:50.955 messages_getHistory-1 log
+pts:0 messagescount:32
+2025-03-09 03:00:50.955 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28142d300> (7479747611006451801)]
+2025-03-09 03:00:50.955 [MTRequestMessageService#0x28354c1e0 response for 7479747602819026944 is <TLmessages_ChatFull$messages_chatFull: 0x28142d3a0>]
+2025-03-09 03:00:50.978 Reloading at 148778
+2025-03-09 03:00:51.161 Will invalidate message ranges to pts 152302:
+2025-03-09 03:00:51.162     148651 ... 148682 (pts 1)
+2025-03-09 03:00:51.163 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x28143b840> (7479747605164280832/0)]
+2025-03-09 03:00:51.224 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28143bce0> (7479747612406273673)]
+2025-03-09 03:00:51.224 [MTRequestMessageService#0x28354c1e0 response for 7479747602827290624 is 1]
+2025-03-09 03:00:51.343 request hole 148683 ... 148777, earlier
+2025-03-09 03:00:51.343 messages_getHistory-2 log
+channel_id:83092212min_id:148682 max_id:148778 offset_id:148778 add_offset:0
+2025-03-09 03:00:51.344 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281c19680> (7479747605944071168/0)]
+2025-03-09 03:00:51.407 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28145cfe0> (7479747612493093089)]
+2025-03-09 03:00:51.407 [MTRequestMessageService#0x28354c1e0 response for 7479747602856779776 is <TLcontacts_TopPeers$contacts_topPeers: 0x281421c80>]
+2025-03-09 03:00:51.411 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281421da0> (7479747612618625723)]
+2025-03-09 03:00:51.411 [MTRequestMessageService#0x28354c1e0 response for 7479747602853201920 is <TLUpdates_ChannelDifference$empty: 0x281421ca0>]
+2025-03-09 03:00:51.428 remoteNotification: {
+    "Mutable-content" = "";
+    aps =     {
+        badge = 0;
+        sound = "";
+    };
+    "log_id" = "";
+    url = "";
+}
+2025-03-09 03:00:51.583 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281421f40> (7479747613285004267)]
+2025-03-09 03:00:51.583 [MTRequestMessageService#0x28354c1e0 response for 7479747605164280832 is <TLchannelDifferenceTooLong: 0x280bc49c0>]
+2025-03-09 03:00:51.832 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281423340> (7479747615018110515)]
+2025-03-09 03:00:51.835 [MTRequestMessageService#0x28354c1e0 response for 7479747605944071168 is <TLmessages_Messages$messages_channelMessages: 0x280bf6500>]
+2025-03-09 03:00:51.868 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:00:52.207 Will invalidate message ranges to pts 152302:
+2025-03-09 03:00:52.207     148683 ... 148777 (pts 1)
+2025-03-09 03:00:52.208 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x28144c500> (7479747609654068224/0)]
+2025-03-09 03:00:52.232 request hole 1 ... 148650, earlier
+2025-03-09 03:00:52.232 messages_getHistory-2 log
+channel_id:83092212min_id:0 max_id:148651 offset_id:148651 add_offset:0
+2025-03-09 03:00:52.232 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281c7b5a0> (7479747609758221312/0)]
+2025-03-09 03:00:52.474 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2814484e0> (7479747617773078483)]
+2025-03-09 03:00:52.474 [MTRequestMessageService#0x28354c1e0 response for 7479747609654068224 is <TLchannelDifferenceTooLong: 0x28045f380>]
+2025-03-09 03:00:52.652 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28144bfa0> (7479747618189518759)]
+2025-03-09 03:00:52.652 [MTRequestMessageService#0x28354c1e0 response for 7479747609758221312 is <TLmessages_Messages$messages_channelMessages: 0x280466fc0>]
+2025-03-09 03:00:52.652 messages_getHistory-2 log
+pts:0 messagescount:0
+2025-03-09 03:01: 0.271 [MTProto#0x28207b700 received <TLUpdates$updates: 0x281dc6d60> (7479747651002197679)]
+2025-03-09 03:01: 0.278 message date: 1741514460
+2025-03-09 03:01: 0.278 otherUpdates:
+(
+    "<TLUpdate$updateChannelParticipantsShort: 0x2815d07e0>",
+    "<TLUpdate$updateNewChannelMessage: 0x2815d07a0>"
+)
+2025-03-09 03:01: 0.291 update: <TLUpdate$updateChannelParticipantsShort: 0x2815d07e0>
+2025-03-09 03:01: 0.291 update: <TLUpdate$updateNewChannelMessage: 0x2815d07a0>, pts: 19855, ptsCount: 1
+2025-03-09 03:01: 0.316 updateNickNameWithPeerId not found generalMember == uid: 93720406 nickName: 
+2025-03-09 03:01: 0.316 updateNickNameWithPeerId not found managerMember == uid: 93720406 nickName: 
+2025-03-09 03:01: 0.391 ===== Updating typing statuses
+2025-03-09 03:01: 0.396 [MTProto#0x28207b700 preparing msgsAck (7479747644820817920/0)]
+2025-03-09 03:01: 0.396 [MTProto#0x28207b700 preparing <TLRPCmessages_receivedMessages$messages_receivedMessages: 0x28135a1a0> (7479747644821289984/0)]
+2025-03-09 03:01: 0.614 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281349d90> (7479747652743932767)]
+2025-03-09 03:01: 0.794 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2815cede0> (7479747652746456109)]
+2025-03-09 03:01: 0.794 [MTRequestMessageService#0x28354c1e0 response for 7479747644821289984 is (
+    "<TLReceivedNotifyMessage$receivedNotifyMessage: 0x281348dd0>"
+)]
+2025-03-09 03:01: 0.795 receivedMessages: maxId: 19723, mids: (
+    19723
+), withoutSound: {(
+)}
+2025-03-09 03:01: 0.795 Not showing local notifications (applicationState = 0)
+2025-03-09 03:01: 5.416 DB Error: 1 "no such column: timestamp"
+2025-03-09 03:01: 5.416 DB Query: SELECT mid, timestamp FROM channel_messages_v32 WHERE cid=? AND mid>=? LIMIT 1
+2025-03-09 03:01: 5.417 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01: 5.468 Continue to watch for actor "/tg/service/synchronizeactionqueue/(global)"
+2025-03-09 03:01: 5.470 [MTProto#0x28207b700 preparing <TLRPCcontacts_resetTopPeerRating$contacts_resetTopPeerRating: 0x2815fdf00> (7479747666613318656/0)]
+2025-03-09 03:01: 5.479 [MTProto#0x28207b700 preparing <TLRPCmessages_deleteAllHistory$messages_deleteAllHistory: 0x281e90960> (7479747666652690432/0)]
+2025-03-09 03:01: 5.701 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2815fc0c0> (7479747674588131321)]
+2025-03-09 03:01: 5.701 [MTRequestMessageService#0x28354c1e0 response for 7479747666613318656 is 1]
+2025-03-09 03:01: 5.880 [MTProto#0x28207b700 received <TLUpdates$updates: 0x281e8fe70> (7479747674885092791)]
+2025-03-09 03:01: 5.880 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2815f87e0> (7479747674966740181)]
+2025-03-09 03:01: 5.880 [MTRequestMessageService#0x28354c1e0 response for 7479747666652690432 is <TLmessages_AffectedHistory$messages_affectedHistory: 0x2815f8da0>]
+2025-03-09 03:01: 5.880 Adding request <TGApplyUpdatesActor: 0x283ac9030> to request queue "messages"
+2025-03-09 03:01: 5.881 otherUpdates:
+(
+    "<TLUpdate$updateChannelAvailableMessages: 0x281349da0>",
+    "<TLUpdate$updateReadChannelInbox: 0x28134b3f0>"
+)
+2025-03-09 03:01: 5.881 update: <TLUpdate$updateChannelAvailableMessages: 0x281349da0>
+2025-03-09 03:01: 5.881 update: <TLUpdate$updateReadChannelInbox: 0x28134b3f0>
+2025-03-09 03:01: 5.881 DB Error: 1 "no such column: timestamp"
+2025-03-09 03:01: 5.882 DB Query: SELECT mid, timestamp FROM channel_messages_v32 WHERE cid=? AND mid>=? LIMIT 1
+2025-03-09 03:01: 5.882 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01: 5.894 enqueued update with pts: 543020 [+2]
+2025-03-09 03:01: 5.919 otherUpdates:
+(
+    "<TLUpdate$updateChangePts: 0x281349ef0>"
+)
+2025-03-09 03:01: 5.919 update: <TLUpdate$updateChangePts: 0x281349ef0>, pts: 543020, ptsCount: 2
+2025-03-09 03:01: 5.919 === pts: 543020
+2025-03-09 03:01: 5.920 (TGDatabase apply pts: 543020, date: 1741514433, qts: 0, seq: 0)
+2025-03-09 03:01: 6.278 (index) remove 1 index items completed
+2025-03-09 03:01: 6.358 [MTProto#0x28207b700 preparing msgsAck (7479747670429582336/0)]
+2025-03-09 03:01: 6.359 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2815f90c0> (7479747670430041088/0)]
+2025-03-09 03:01: 6.583 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x28134a850> (7479747678375916383)]
+2025-03-09 03:01: 6.764 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2815f9bc0> (7479747678413037535)]
+2025-03-09 03:01: 6.764 [MTRequestMessageService#0x28354c1e0 response for 7479747670430041088 is <TLUpdates_ChannelDifference$empty: 0x2815f9560>]
+2025-03-09 03:01: 9.996 LiveLocationManager: subscribed for frequent location updates with peerId -4378667485
+2025-03-09 03:01: 9.997 [MTProto#0x28207b700 preparing <TLRPCchannels$getFullChannelPt: 0x2815f06e0> (7479747686058156032/0)]
+2025-03-09 03:01: 9.998 [MTProto#0x28207b700 preparing <TLRPCchannels_getParticipants$channels_getParticipants: 0x281ea3510> (7479747686060643328/0)]
+2025-03-09 03:01:10.034 [MTProto#0x28207b700 preparing <TLRPCmessages_getRecentLocations$messages_getRecentLocations: 0x2815e9220> (7479747686214380544/0)]
+2025-03-09 03:01:10.036 (loading conversation state sync)
+2025-03-09 03:01:10.358 Joining watcher to the watchers of "/img/({filter:circle:37x37}2_-5644876451702193727_233476801_34906616918435134_1)"
+2025-03-09 03:01:10.360 Joining watcher to the watchers of "/img/({filter:circle:37x37}2_-5644876451702193727_233476801_34906616918435134_1)"
+2025-03-09 03:01:10.374 retrunmode = (null)
+2025-03-09 03:01:10.390 [MTProto#0x28207b700 preparing <TLRPCAlert_getFraudAlert$getFraudAlert: 0x2815e0dc0> (7479747687739378688/0)]
+2025-03-09 03:01:10.416 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2815e03e0> (7479747694801484367)]
+2025-03-09 03:01:10.416 [MTRequestMessageService#0x28354c1e0 response for 7479747686058156032 is <TLmessages_ChatFull$messages_chatFull: 0x2815e04c0>]
+2025-03-09 03:01:10.535 [MTProto#0x28207b700 preparing <TLRPCchannels_getFullChannel$channels_getFullChannel: 0x28135d350> (7479747688368690176/0)]
+2025-03-09 03:01:10.540 [MTProto#0x28207b700 preparing <TLRPCchannels_readHistory$channels_readHistory: 0x28150e780> (7479747688391113728/0)]
+2025-03-09 03:01:10.545 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x28150eaa0> (7479747688411712512/0)]
+2025-03-09 03:01:10.582 Cancelled 2 requests at once
+2025-03-09 03:01:10.635 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2815095c0> (7479747695099765227)]
+2025-03-09 03:01:10.635 [MTRequestMessageService#0x28354c1e0 response for 7479747686060643328 is <TLchannels_ChannelParticipants$channels_channelParticipants: 0x281508c40>]
+2025-03-09 03:01:10.635 TLRPCchannels$getFullChannelPt/full_chat ---- <TLRPCchannels$channelFullPtV3: 0x282a74c30>
+2025-03-09 03:01:10.664 channelMembers result: (null) -- <TLChannelParticipant$channelParticipantAdminV3: 0x2804dcc80>
+2025-03-09 03:01:10.664 channelMembers result: (null) -- <TLChannelParticipant$channelParticipantAdminV3: 0x2804df340>
+2025-03-09 03:01:10.664 channelMembers result: ‎` -- <TLChannelParticipant$channelParticipantCreatorV3: 0x281e20690>
+2025-03-09 03:01:10.664 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281529100> (7479747695124548945)]
+2025-03-09 03:01:10.664 [MTRequestMessageService#0x28354c1e0 response for 7479747686214380544 is <TLmessages_Messages$messages_channelMessages: 0x280b8d180>]
+2025-03-09 03:01:10.794 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281699f00> (7479747695710470853)]
+2025-03-09 03:01:10.794 [MTRequestMessageService#0x28354c1e0 response for 7479747687739378688 is <TLAlert_FraudAlert$fraudAlert: 0x281eab090>]
+2025-03-09 03:01:10.795 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281541a20> (7479747696399241709)]
+2025-03-09 03:01:10.795 [MTRequestMessageService#0x28354c1e0 response for 7479747688368690176 is <TLmessages_ChatFull$messages_chatFull: 0x2815434a0>]
+2025-03-09 03:01:10.955 remoteNotification: {
+    "Mutable-content" = "";
+    aps =     {
+        badge = 0;
+        sound = "";
+    };
+    "log_id" = "";
+    url = "";
+}
+2025-03-09 03:01:10.965 LiveLocationManager: unsubscribed from frequent location updates with peerId -4378059508
+2025-03-09 03:01:11.016 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2816bae20> (7479747696614327097)]
+2025-03-09 03:01:11.016 [MTRequestMessageService#0x28354c1e0 response for 7479747688391113728 is 1]
+2025-03-09 03:01:11.016 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2816b9860> (7479747696633940991)]
+2025-03-09 03:01:11.016 [MTRequestMessageService#0x28354c1e0 response for 7479747688411712512 is <TLUpdates_ChannelDifference$empty: 0x2816baf20>]
+2025-03-09 03:01:17.467 [MTProto#0x28207b700 received <TLUpdates$updates: 0x281fb1e00> (7479747724857436155)]
+2025-03-09 03:01:17.468 message date: 1741514477
+2025-03-09 03:01:17.468 otherUpdates:
+(
+    "<TLUpdate$updateChannelParticipantsShort: 0x281613720>",
+    "<TLUpdate$updateNewChannelMessage: 0x281613980>"
+)
+2025-03-09 03:01:17.495 update: <TLUpdate$updateChannelParticipantsShort: 0x281613720>
+2025-03-09 03:01:17.495 update: <TLUpdate$updateNewChannelMessage: 0x281613980>, pts: 16557, ptsCount: 1
+2025-03-09 03:01:17.496 updateNickNameWithPeerId not found generalMember == uid: 94067697 nickName: 
+2025-03-09 03:01:17.496 updateNickNameWithPeerId not found managerMember == uid: 94067697 nickName: 
+2025-03-09 03:01:17.557 ===== Updating typing statuses
+2025-03-09 03:01:17.563 [MTProto#0x28207b700 preparing msgsAck (7479747718550605824/0)]
+2025-03-09 03:01:17.563 [MTProto#0x28207b700 preparing <TLRPCmessages_receivedMessages$messages_receivedMessages: 0x28134f8c0> (7479747718550958080/0)]
+2025-03-09 03:01:17.782 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x28132bd10> (7479747726479440651)]
+2025-03-09 03:01:17.963 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281605ee0> (7479747726482261957)]
+2025-03-09 03:01:17.964 [MTRequestMessageService#0x28354c1e0 response for 7479747718550958080 is (
+    "<TLReceivedNotifyMessage$receivedNotifyMessage: 0x281328030>"
+)]
+2025-03-09 03:01:17.964 receivedMessages: maxId: 16545, mids: (
+    16545
+), withoutSound: {(
+)}
+2025-03-09 03:01:17.964 Not showing local notifications (applicationState = 0)
+2025-03-09 03:01:20.863 LiveLocationManager: subscribed for frequent location updates with peerId -4378772666
+2025-03-09 03:01:20.864 [MTProto#0x28207b700 preparing <TLRPCchannels_getParticipants$channels_getParticipants: 0x281ef5b90> (7479747732731415552/0)]
+2025-03-09 03:01:20.870 [MTProto#0x28207b700 preparing <TLRPCchannels$getFullChannelPt: 0x28162e860> (7479747732752975872/0)]
+2025-03-09 03:01:20.870 [MTProto#0x28207b700 preparing <TLRPCmessages_getRecentLocations$messages_getRecentLocations: 0x28162da60> (7479747732754097152/0)]
+2025-03-09 03:01:20.870 (loading conversation state sync)
+2025-03-09 03:01:20.882 Joining watcher to the watchers of "/img/({filter:circle:37x37}2_-5429024026899338428_238189636_5818668175342249595_1)"
+2025-03-09 03:01:20.882 Joining watcher to the watchers of "/img/({filter:circle:37x37}2_-5429024026899338428_238189636_5818668175342249595_1)"
+2025-03-09 03:01:20.901 retrunmode = (null)
+2025-03-09 03:01:20.920 [MTProto#0x28207b700 preparing <TLRPCAlert_getFraudAlert$getFraudAlert: 0x281614640> (7479747732965942272/0)]
+2025-03-09 03:01:21.020 LiveLocationManager: no more active live location subscribers, stopping location updates
+2025-03-09 03:01:21.020 LiveLocationManager: stop location manager
+2025-03-09 03:01:21.035 [MTProto#0x28207b700 preparing <TLRPCchannels_getFullChannel$channels_getFullChannel: 0x281351350> (7479747733465123840/0)]
+2025-03-09 03:01:21.037 [MTProto#0x28207b700 preparing <TLRPCchannels_readHistory$channels_readHistory: 0x281653f60> (7479747733471550464/0)]
+2025-03-09 03:01:21.042 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281651380> (7479747733494815744/0)]
+2025-03-09 03:01:21.067 Cancelled 2 requests at once
+2025-03-09 03:01:21.069 LiveLocationManager: unsubscribed from frequent location updates with peerId -4378667485
+2025-03-09 03:01:21.283 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28166f8c0> (7479747741510972303)]
+2025-03-09 03:01:21.283 [MTRequestMessageService#0x28354c1e0 response for 7479747732731415552 is <TLchannels_ChannelParticipants$channels_channelParticipants: 0x28166ffa0>]
+2025-03-09 03:01:21.284 channelMembers result: https://lbx.ac/s/oez -- <TLChannelParticipant$channelParticipantCreatorV3: 0x281ea4390>
+2025-03-09 03:01:21.463 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x28134bb30> (7479747741511261475)]
+2025-03-09 03:01:21.463 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281665d60> (7479747741588889113)]
+2025-03-09 03:01:21.463 [MTRequestMessageService#0x28354c1e0 response for 7479747732965942272 is <TLAlert_FraudAlert$fraudAlert: 0x281ea9cb0>]
+2025-03-09 03:01:21.464 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281666f60> (7479747741909844859)]
+2025-03-09 03:01:21.464 [MTRequestMessageService#0x28354c1e0 response for 7479747732752975872 is <TLmessages_ChatFull$messages_chatFull: 0x28166df20>]
+2025-03-09 03:01:21.464 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281666e60> (7479747741960828437)]
+2025-03-09 03:01:21.464 [MTRequestMessageService#0x28354c1e0 response for 7479747733465123840 is <TLmessages_ChatFull$messages_chatFull: 0x281666b60>]
+2025-03-09 03:01:21.465 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281666a60> (7479747742173059533)]
+2025-03-09 03:01:21.466 [MTRequestMessageService#0x28354c1e0 response for 7479747733471550464 is 1]
+2025-03-09 03:01:21.466 TLRPCchannels$getFullChannelPt/full_chat ---- <TLRPCchannels$channelFullPtV3: 0x282aee080>
+2025-03-09 03:01:21.466 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281666b60> (7479747742195891651)]
+2025-03-09 03:01:21.466 [MTRequestMessageService#0x28354c1e0 response for 7479747733494815744 is <TLUpdates_ChannelDifference$empty: 0x281666840>]
+2025-03-09 03:01:21.642 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28179b540> (7479747742815011705)]
+2025-03-09 03:01:21.642 [MTRequestMessageService#0x28354c1e0 response for 7479747732754097152 is <TLmessages_Messages$messages_channelMessages: 0x280bb0980>]
+2025-03-09 03:01:21.689 remoteNotification: {
+    "Mutable-content" = "";
+    aps =     {
+        badge = 0;
+        sound = "";
+    };
+    "log_id" = "";
+    url = "";
+}
+2025-03-09 03:01:30.627 ===== Setting presence: online
+2025-03-09 03:01:30.628 st story data updateItemPeer - 91399161 hidden - 0 newPeerHidden - 0
+2025-03-09 03:01:30.628 st story data accountItem - SubscriptionsItem - 0x280bf3540 storyCount - 0 unseenCount - 0 hidden - 0 hasPending - 0 readModel - (null) itemModels count - 0 hasMoreToken - 1738791911:1738791911:0:c16e230a95533614c11c9782884d7995
+2025-03-09 03:01:30.628 st story data autoExpiredStories cancel hasAutoExpiredStoriesTask true ~~
+2025-03-09 03:01:30.629 [MTProto#0x28207b700 preparing <TLRPCaccount_updateStatus$account_updateStatus: 0x2817c4100> (7479747774670061568/0)]
+2025-03-09 03:01:30.859 st story data autoExpiredStories start~~
+2025-03-09 03:01:30.860 st story data autoExpiredStories storyMinimumDate - 0 nowDate - 1741514488 diff - -1741514488
+2025-03-09 03:01:30.867 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2817c42a0> (7479747782627841193)]
+2025-03-09 03:01:30.868 [MTRequestMessageService#0x28354c1e0 response for 7479747774670061568 is 1]
+2025-03-09 03:01:31.083 LiveLocationManager: no more active live location subscribers, stopping location updates
+2025-03-09 03:01:31.083 LiveLocationManager: stop location manager
+2025-03-09 03:01:32.487 Updated contact list
+2025-03-09 03:01:32.506 Updated contact list
+2025-03-09 03:01:33.104 Contacts cache built in 0.010657s
+2025-03-09 03:01:35.047 [MTProto#0x28207b700 preparing <TLRPCmessages_getAllChatsWithFilter$messages_getAllChatsWithFilter: 0x28175f360> (7479747793646124032/0)]
+2025-03-09 03:01:35.054 ===== Dialog list reloaded
+2025-03-09 03:01:35.781 ===== Dialog list did appear
+2025-03-09 03:01:35.899 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810cf9a0> (7479747804177212401)]
+2025-03-09 03:01:35.900 [MTRequestMessageService#0x28354c1e0 response for 7479747793646124032 is <TLmessages_Chats$messages_chatsSlice: 0x2810cf880>]
+2025-03-09 03:01:35.903 DB Error: 1 "table channel_conversations_v32 has no column named date"
+2025-03-09 03:01:35.905 DB Query: INSERT OR REPLACE INTO channel_conversations_v32 (cid, date, from_uid, message, media, unread_count, flags, chat_title, chat_photo, participants, participants_count, chat_version, in_archived, ttl_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-09 03:01:35.905 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:35.905 DB Error: 1 "table channel_conversations_v32 has no column named date"
+2025-03-09 03:01:35.905 DB Query: INSERT OR REPLACE INTO channel_conversations_v32 (cid, date, from_uid, message, media, unread_count, flags, chat_title, chat_photo, participants, participants_count, chat_version, in_archived, ttl_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-09 03:01:35.905 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:35.905 DB Error: 1 "table channel_conversations_v32 has no column named date"
+2025-03-09 03:01:35.906 DB Query: INSERT OR REPLACE INTO channel_conversations_v32 (cid, date, from_uid, message, media, unread_count, flags, chat_title, chat_photo, participants, participants_count, chat_version, in_archived, ttl_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-09 03:01:35.906 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:35.906 DB Error: 1 "table channel_conversations_v32 has no column named date"
+2025-03-09 03:01:35.906 DB Query: INSERT OR REPLACE INTO channel_conversations_v32 (cid, date, from_uid, message, media, unread_count, flags, chat_title, chat_photo, participants, participants_count, chat_version, in_archived, ttl_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-09 03:01:35.906 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:35.906 DB Error: 1 "table channel_conversations_v32 has no column named date"
+2025-03-09 03:01:35.906 DB Query: INSERT OR REPLACE INTO channel_conversations_v32 (cid, date, from_uid, message, media, unread_count, flags, chat_title, chat_photo, participants, participants_count, chat_version, in_archived, ttl_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-09 03:01:35.906 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:35.906 DB Error: 1 "table channel_conversations_v32 has no column named date"
+2025-03-09 03:01:35.906 DB Query: INSERT OR REPLACE INTO channel_conversations_v32 (cid, date, from_uid, message, media, unread_count, flags, chat_title, chat_photo, participants, participants_count, chat_version, in_archived, ttl_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-09 03:01:35.906 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:35.906 DB Error: 1 "table channel_conversations_v32 has no column named date"
+2025-03-09 03:01:35.906 DB Query: INSERT OR REPLACE INTO channel_conversations_v32 (cid, date, from_uid, message, media, unread_count, flags, chat_title, chat_photo, participants, participants_count, chat_version, in_archived, ttl_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-09 03:01:35.906 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:35.906 DB Error: 1 "table channel_conversations_v32 has no column named date"
+2025-03-09 03:01:35.906 DB Query: INSERT OR REPLACE INTO channel_conversations_v32 (cid, date, from_uid, message, media, unread_count, flags, chat_title, chat_photo, participants, participants_count, chat_version, in_archived, ttl_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-09 03:01:35.906 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:35.906 DB Error: 1 "table channel_conversations_v32 has no column named date"
+2025-03-09 03:01:35.906 DB Query: INSERT OR REPLACE INTO channel_conversations_v32 (cid, date, from_uid, message, media, unread_count, flags, chat_title, chat_photo, participants, participants_count, chat_version, in_archived, ttl_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-09 03:01:35.907 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:35.907 DB Error: 1 "table channel_conversations_v32 has no column named date"
+2025-03-09 03:01:35.907 DB Query: INSERT OR REPLACE INTO channel_conversations_v32 (cid, date, from_uid, message, media, unread_count, flags, chat_title, chat_photo, participants, participants_count, chat_version, in_archived, ttl_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-09 03:01:35.907 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:35.907 DB Error: 1 "table channel_conversations_v32 has no column named date"
+2025-03-09 03:01:35.907 DB Query: INSERT OR REPLACE INTO channel_conversations_v32 (cid, date, from_uid, message, media, unread_count, flags, chat_title, chat_photo, participants, participants_count, chat_version, in_archived, ttl_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-09 03:01:35.907 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:35.907 DB Error: 1 "table channel_conversations_v32 has no column named date"
+2025-03-09 03:01:35.907 DB Query: INSERT OR REPLACE INTO channel_conversations_v32 (cid, date, from_uid, message, media, unread_count, flags, chat_title, chat_photo, participants, participants_count, chat_version, in_archived, ttl_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-03-09 03:01:35.907 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:36.413 [MTProto#0x28207b700 preparing <TLRPChelp_getInviteText$help_getInviteText: 0x2813542d0> (7479747799511744512/0)]
+2025-03-09 03:01:36.413 [MTProto#0x28207b700 preparing <TLRPChelp_getConfig$help_getConfig: 0x281357e40> (7479747799512590336/0)]
+2025-03-09 03:01:36.413 [MTProto#0x28207b700 preparing <TLRPCusers_getUsers$users_getUsers: 0x281356820> (7479747799512976384/0)]
+2025-03-09 03:01:36.639 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281354bd0> (7479747807464212735)]
+2025-03-09 03:01:36.822 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281089620> (7479747807472521623)]
+2025-03-09 03:01:36.822 [MTRequestMessageService#0x28354c1e0 response for 7479747799511744512 is <TLhelp_InviteText$help_inviteText: 0x281354bd0>]
+2025-03-09 03:01:36.823 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810c8f00> (7479747807640599205)]
+2025-03-09 03:01:36.823 [MTRequestMessageService#0x28354c1e0 response for 7479747799512976384 is (
+    "<TLUser$user: 0x282647e90>"
+)]
+2025-03-09 03:01:36.824 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281089620> (7479747807712734867)]
+2025-03-09 03:01:36.825 [MTRequestMessageService#0x28354c1e0 response for 7479747799512590336 is <TLConfig$config: 0x282011f40>]
+2025-03-09 03:01:36.825 st story data updateItemPeer - 91399161 hidden - 0 newPeerHidden - 0
+2025-03-09 03:01:36.825 st story data accountItem - SubscriptionsItem - 0x280485900 storyCount - 0 unseenCount - 0 hidden - 0 hasPending - 0 readModel - (null) itemModels count - 0 hasMoreToken - 1738791911:1738791911:0:c16e230a95533614c11c9782884d7995
+2025-03-09 03:01:36.828 st config flag - 836424762
+2025-03-09 03:01:36.851 store enable = 1048576
+2025-03-09 03:01:36.851 st badge updateConfig discoverBadgeDate - 61 previousDiscoverBadgeDate - 61
+2025-03-09 03:01:36.851 pcPayEnabled changed to 0
+2025-03-09 03:01:37.039 st story enabled - 1 _storiesEnabled - 1
+2025-03-09 03:01:37.039 st story enabled for settings - 1 _storiesEnabled - 1
+2025-03-09 03:01:37.040 st tabbar walletHidden -- 0
+2025-03-09 03:01:41.586 [MTProto#0x28207b700 preparing <TLRPCchannels_leaveChannel$channels_leaveChannel: 0x281352e70> (7479747821729073152/0)]
+2025-03-09 03:01:41.593 DB Error: 1 "no such column: timestamp"
+2025-03-09 03:01:41.593 DB Query: SELECT mid, timestamp FROM channel_messages_v32 WHERE cid=? AND mid>=? LIMIT 1
+2025-03-09 03:01:41.593 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:41.619 st group filter dialogListItemsChanged insertedIndices -- 0 insertedItems -- 0 updatedIndices -- 0 updatedItems -- 0 removedIndices -- 1
+2025-03-09 03:01:41.619 [MTProto#0x28207b700 preparing <TLRPCcontacts_resetTopPeerRating$contacts_resetTopPeerRating: 0x2810e8860> (7479747821873255424/0)]
+2025-03-09 03:01:41.942 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810e83c0> (7479747830080837217)]
+2025-03-09 03:01:41.943 [MTRequestMessageService#0x28354c1e0 response for 7479747821729073152 is <TLUpdates$updates: 0x281d49ce0>]
+2025-03-09 03:01:42.086 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810e83c0> (7479747830086500721)]
+2025-03-09 03:01:42.086 [MTRequestMessageService#0x28354c1e0 response for 7479747821873255424 is 1]
+2025-03-09 03:01:42.456 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x2810e0c00> (7479747832136502279)]
+2025-03-09 03:01:42.456 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281350aa0>"
+)
+2025-03-09 03:01:42.457 update: <TLUpdate$updateReadChannelOutbox: 0x281350aa0>
+2025-03-09 03:01:43.580 LiveLocationManager: subscribed for frequent location updates with peerId -4378772666
+2025-03-09 03:01:43.582 [MTProto#0x28207b700 preparing msgsAck (7479747830302016512/0)]
+2025-03-09 03:01:43.582 [MTProto#0x28207b700 preparing <TLRPCchannels_getParticipants$channels_getParticipants: 0x281d4fa20> (7479747830302505984/0)]
+2025-03-09 03:01:43.584 [MTProto#0x28207b700 preparing msgsAck (7479747830309829632/0)]
+2025-03-09 03:01:43.584 [MTProto#0x28207b700 preparing <TLRPCchannels$getFullChannelPt: 0x2810e3d00> (7479747830310250496/0)]
+2025-03-09 03:01:43.589 [MTProto#0x28207b700 preparing msgsAck (7479747830321400832/0)]
+2025-03-09 03:01:43.589 [MTProto#0x28207b700 preparing <TLRPCmessages_getRecentLocations$messages_getRecentLocations: 0x28101c840> (7479747830321937408/0)]
+2025-03-09 03:01:43.613 retrunmode = (null)
+2025-03-09 03:01:43.629 [MTProto#0x28207b700 preparing msgsAck (7479747830506015744/0)]
+2025-03-09 03:01:43.630 [MTProto#0x28207b700 preparing <TLRPCAlert_getFraudAlert$getFraudAlert: 0x28103f6a0> (7479747830506315776/0)]
+2025-03-09 03:01:43.806 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281358d60> (7479747838239006563)]
+2025-03-09 03:01:43.996 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281350590> (7479747838404688347)]
+2025-03-09 03:01:43.996 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281350590> (7479747838404766415)]
+2025-03-09 03:01:43.997 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281353ab0> (7479747838568077687)]
+2025-03-09 03:01:43.997 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281063440> (7479747838596003757)]
+2025-03-09 03:01:43.997 [MTRequestMessageService#0x28354c1e0 response for 7479747830506315776 is <TLAlert_FraudAlert$fraudAlert: 0x281d53cf0>]
+2025-03-09 03:01:43.997 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810634c0> (7479747838649874615)]
+2025-03-09 03:01:43.998 [MTRequestMessageService#0x28354c1e0 response for 7479747830310250496 is <TLmessages_ChatFull$messages_chatFull: 0x2810631a0>]
+2025-03-09 03:01:44.001 TLRPCchannels$getFullChannelPt/full_chat ---- <TLRPCchannels$channelFullPtV3: 0x282ad8b60>
+2025-03-09 03:01:44.164 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810464a0> (7479747839191704579)]
+2025-03-09 03:01:44.165 [MTRequestMessageService#0x28354c1e0 response for 7479747830302505984 is <TLchannels_ChannelParticipants$channels_channelParticipants: 0x281045f60>]
+2025-03-09 03:01:44.165 channelMembers result: https://lbx.ac/s/oez -- <TLChannelParticipant$channelParticipantCreatorV3: 0x281e2a820>
+2025-03-09 03:01:44.167 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281045f00> (7479747839208088157)]
+2025-03-09 03:01:44.167 [MTRequestMessageService#0x28354c1e0 response for 7479747830321937408 is <TLmessages_Messages$messages_channelMessages: 0x280a5a0c0>]
+2025-03-09 03:01:44.260 [MTProto#0x28207b700 preparing <TLRPCchannels_getFullChannel$channels_getFullChannel: 0x28136df70> (7479747833216195584/0)]
+2025-03-09 03:01:44.432 [MTProto#0x28207b700 received <TLUpdates$updates: 0x281d071e0> (7479747840932408343)]
+2025-03-09 03:01:44.432 message date: 1741514504
+2025-03-09 03:01:44.432 otherUpdates:
+(
+    "<TLUpdate$updateChannelParticipantsShort: 0x2810e4b80>",
+    "<TLUpdate$updateNewChannelMessage: 0x2810e4c00>"
+)
+2025-03-09 03:01:44.443 update: <TLUpdate$updateChannelParticipantsShort: 0x2810e4b80>
+2025-03-09 03:01:44.443 update: <TLUpdate$updateNewChannelMessage: 0x2810e4c00>, pts: 80788, ptsCount: 1
+2025-03-09 03:01:44.443 updateNickNameWithPeerId not found generalMember == uid: 74350275 nickName: 
+2025-03-09 03:01:44.443 updateNickNameWithPeerId not found managerMember == uid: 74350275 nickName: 
+2025-03-09 03:01:44.457 [MTProto#0x28207b700 preparing msgsAck (7479747834062609408/0)]
+2025-03-09 03:01:44.457 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2810e6bc0> (7479747834062960640/0)]
+2025-03-09 03:01:44.612 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810e6e00> (7479747841234953045)]
+2025-03-09 03:01:44.612 [MTRequestMessageService#0x28354c1e0 response for 7479747833216195584 is <TLmessages_ChatFull$messages_chatFull: 0x2810e72e0>]
+2025-03-09 03:01:44.790 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x28132e290> (7479747841984817335)]
+2025-03-09 03:01:44.790 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810e6b40> (7479747842058679203)]
+2025-03-09 03:01:44.790 [MTRequestMessageService#0x28354c1e0 response for 7479747834062960640 is <TLchannelDifferenceTooLong: 0x280a57b00>]
+2025-03-09 03:01:44.791 (TGChannelStateSignals ChannelDifference for -4378791356 is tooLong, topMessage: 46609)
+2025-03-09 03:01:44.791 (TGDatabase addTrailingHoleToChannelAndDispatch for -4378791356: messages: 1 items, filteredMessages: 46609, holes: 1...46608)
+2025-03-09 03:01:44.873 messages_getHistory-1 log
+channel_id:83824060min_id:1 max_id:2147483647 offset_id:46433 add_offset:-32
+2025-03-09 03:01:44.874 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281d524c0> (7479747835851617280/0)]
+2025-03-09 03:01:45.258 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810e6420> (7479747844483700863)]
+2025-03-09 03:01:45.259 [MTRequestMessageService#0x28354c1e0 response for 7479747835851617280 is <TLmessages_Messages$messages_channelMessages: 0x280a57600>]
+2025-03-09 03:01:45.259 messages_getHistory-1 log
+pts:0 messagescount:1
+2025-03-09 03:01:46.014 Cancelled 2 requests at once
+2025-03-09 03:01:46.020 LiveLocationManager: unsubscribed from frequent location updates with peerId -4378772666
+2025-03-09 03:01:46.020 LiveLocationManager: no more frequent location subscribers
+2025-03-09 03:01:48.604 [MTProto#0x28207b700 preparing <TLRPCchannels_leaveChannel$channels_leaveChannel: 0x28132a120> (7479747851871364096/0)]
+2025-03-09 03:01:48.611 DB Error: 1 "no such column: timestamp"
+2025-03-09 03:01:48.611 DB Query: SELECT mid, timestamp FROM channel_messages_v32 WHERE cid=? AND mid>=? LIMIT 1
+2025-03-09 03:01:48.611 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:01:48.663 [MTProto#0x28207b700 preparing <TLRPCcontacts_resetTopPeerRating$contacts_resetTopPeerRating: 0x2810701a0> (7479747852128417792/0)]
+2025-03-09 03:01:48.664 st group filter dialogListItemsChanged insertedIndices -- 0 insertedItems -- 0 updatedIndices -- 0 updatedItems -- 0 removedIndices -- 1
+2025-03-09 03:01:48.893 (index) remove 1 index items completed
+2025-03-09 03:01:49.052 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x281072060> (7479747860557366715)]
+2025-03-09 03:01:49.052 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281328540>"
+)
+2025-03-09 03:01:49.052 update: <TLUpdate$updateReadChannelOutbox: 0x281328540>
+2025-03-09 03:01:49.183 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28103ee00> (7479747860678233089)]
+2025-03-09 03:01:49.184 [MTRequestMessageService#0x28354c1e0 response for 7479747851871364096 is <TLUpdates$updates: 0x281e47b40>]
+2025-03-09 03:01:49.184 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810705a0> (7479747860699595177)]
+2025-03-09 03:01:49.185 [MTRequestMessageService#0x28354c1e0 response for 7479747852128417792 is 1]
+2025-03-09 03:01:49.360 [MTProto#0x28207b700 received <TLUpdates$updates: 0x281e51da0> (7479747861854997147)]
+2025-03-09 03:01:49.360 otherUpdates:
+(
+    "<TLUpdate$updateDeleteChannelMessages: 0x281070e60>"
+)
+2025-03-09 03:01:49.363 update: <TLUpdate$updateDeleteChannelMessages: 0x281070e60>, pts: 80789, ptsCount: 1
+2025-03-09 03:01:49.725 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x281071d00> (7479747863457857239)]
+2025-03-09 03:01:49.726 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281328850>"
+)
+2025-03-09 03:01:49.726 update: <TLUpdate$updateReadChannelOutbox: 0x281328850>
+2025-03-09 03:01:50.033 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x281071ee0> (7479747864904236119)]
+2025-03-09 03:01:50.034 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281328850>"
+)
+2025-03-09 03:01:50.034 update: <TLUpdate$updateReadChannelOutbox: 0x281328850>
+2025-03-09 03:01:51.491 [MTProto#0x28207b700 preparing msgsAck (7479747864270951424/0)]
+2025-03-09 03:01:51.491 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2811decc0> (7479747864272454656/0)]
+2025-03-09 03:01:51.651 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x2811df7a0> (7479747871933525503)]
+2025-03-09 03:01:51.652 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281328190>"
+)
+2025-03-09 03:01:51.652 update: <TLUpdate$updateReadChannelOutbox: 0x281328190>
+2025-03-09 03:01:51.833 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281328540> (7479747872232208783)]
+2025-03-09 03:01:51.834 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28105bc00> (7479747872247673179)]
+2025-03-09 03:01:51.834 [MTRequestMessageService#0x28354c1e0 response for 7479747864272454656 is <TLUpdates_ChannelDifference$empty: 0x28105bdc0>]
+2025-03-09 03:01:52.014 [MTProto#0x28207b700 received <TLUpdates$updates: 0x281ea98c0> (7479747873078398719)]
+2025-03-09 03:01:52.015 message date: 1741514511
+2025-03-09 03:01:52.015 otherUpdates:
+(
+    "<TLUpdate$updateChannelParticipantsShort: 0x281059960>",
+    "<TLUpdate$updateNewChannelMessage: 0x28105a1a0>"
+)
+2025-03-09 03:01:52.034 update: <TLUpdate$updateChannelParticipantsShort: 0x281059960>
+2025-03-09 03:01:52.035 update: <TLUpdate$updateNewChannelMessage: 0x28105a1a0>, pts: 7581, ptsCount: 1
+2025-03-09 03:01:52.053 updateNickNameWithPeerId not found generalMember == uid: 91630761 nickName: 
+2025-03-09 03:01:52.053 updateNickNameWithPeerId not found managerMember == uid: 91630761 nickName: 
+2025-03-09 03:01:52.111 ===== Updating typing statuses
+2025-03-09 03:01:52.115 [MTProto#0x28207b700 preparing msgsAck (7479747866950624256/0)]
+2025-03-09 03:01:52.115 [MTProto#0x28207b700 preparing <TLRPCmessages_receivedMessages$messages_receivedMessages: 0x28132b980> (7479747866950981632/0)]
+2025-03-09 03:01:52.334 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x28132f950> (7479747874877123919)]
+2025-03-09 03:01:52.514 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281065560> (7479747874880977653)]
+2025-03-09 03:01:52.515 [MTRequestMessageService#0x28354c1e0 response for 7479747866950981632 is (
+    "<TLReceivedNotifyMessage$receivedNotifyMessage: 0x281330e30>"
+)]
+2025-03-09 03:01:52.515 receivedMessages: maxId: 7494, mids: (
+    7494
+), withoutSound: {(
+)}
+2025-03-09 03:01:52.515 Not showing local notifications (applicationState = 0)
+2025-03-09 03:01:54.708 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x28114e8c0> (7479747885043709715)]
+2025-03-09 03:01:54.709 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281330790>"
+)
+2025-03-09 03:01:54.709 update: <TLUpdate$updateReadChannelOutbox: 0x281330790>
+2025-03-09 03:01:56.029 LiveLocationManager: no more active live location subscribers, stopping location updates
+2025-03-09 03:01:56.029 LiveLocationManager: stop location manager
+2025-03-09 03:01:58.021 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x281076480> (7479747898825593999)]
+2025-03-09 03:01:58.022 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281330e30>"
+)
+2025-03-09 03:01:58.022 update: <TLUpdate$updateReadChannelOutbox: 0x281330e30>
+2025-03-09 03:02: 3.502 LiveLocationManager: subscribed for frequent location updates with peerId -4378855083
+2025-03-09 03:02: 3.511 [MTProto#0x28207b700 preparing msgsAck (7479747915898950656/0)]
+2025-03-09 03:02: 3.512 [MTProto#0x28207b700 preparing <TLRPCchannels_getParticipants$channels_getParticipants: 0x281d7d650> (7479747915900027904/0)]
+2025-03-09 03:02: 3.515 [MTProto#0x28207b700 preparing msgsAck (7479747915910305792/0)]
+2025-03-09 03:02: 3.515 [MTProto#0x28207b700 preparing <TLRPCchannels$getFullChannelPt: 0x281103cc0> (7479747915911693312/0)]
+2025-03-09 03:02: 3.546 [MTProto#0x28207b700 preparing msgsAck (7479747916048762880/0)]
+2025-03-09 03:02: 3.546 [MTProto#0x28207b700 preparing <TLRPCmessages_getRecentLocations$messages_getRecentLocations: 0x281034e80> (7479747916049239040/0)]
+2025-03-09 03:02: 3.548 (loading conversation state sync)
+2025-03-09 03:02: 3.592 Joining watcher to the watchers of "/img/({filter:circle:37x37}2_-4925551059763010965_241087339_1052060385285561948_1)"
+2025-03-09 03:02: 3.592 Joining watcher to the watchers of "/img/({filter:circle:37x37}2_-4925551059763010965_241087339_1052060385285561948_1)"
+2025-03-09 03:02: 3.606 retrunmode = (null)
+2025-03-09 03:02: 3.622 [MTProto#0x28207b700 preparing msgsAck (7479747916373822464/0)]
+2025-03-09 03:02: 3.623 [MTProto#0x28207b700 preparing <TLRPCAlert_getFraudAlert$getFraudAlert: 0x28104d660> (7479747916374283264/0)]
+2025-03-09 03:02: 3.739 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281342630> (7479747923862920211)]
+2025-03-09 03:02: 3.920 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x2813336e0> (7479747924028157799)]
+2025-03-09 03:02: 3.920 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281333e20> (7479747924028227071)]
+2025-03-09 03:02: 3.920 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810e6040> (7479747924109673255)]
+2025-03-09 03:02: 3.921 [MTRequestMessageService#0x28354c1e0 response for 7479747915911693312 is <TLmessages_ChatFull$messages_chatFull: 0x2810e75a0>]
+2025-03-09 03:02: 3.921 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810e72c0> (7479747924112927763)]
+2025-03-09 03:02: 3.921 [MTRequestMessageService#0x28354c1e0 response for 7479747915900027904 is <TLchannels_ChannelParticipants$channels_channelParticipants: 0x2810e70c0>]
+2025-03-09 03:02: 3.927 channelMembers result: (null) -- <TLChannelParticipant$channelParticipantCreatorV3: 0x281d26fa0>
+2025-03-09 03:02: 3.927 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x2810e7c20> (7479747924210804799)]
+2025-03-09 03:02: 3.927 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x2813440a0> (7479747924302472987)]
+2025-03-09 03:02: 3.927 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810e7460> (7479747924320567377)]
+2025-03-09 03:02: 3.927 [MTRequestMessageService#0x28354c1e0 response for 7479747916374283264 is <TLAlert_FraudAlert$fraudAlert: 0x281d537b0>]
+2025-03-09 03:02: 3.938 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281345c30>"
+)
+2025-03-09 03:02: 3.938 update: <TLUpdate$updateReadChannelOutbox: 0x281345c30>
+2025-03-09 03:02: 3.942 TLRPCchannels$getFullChannelPt/full_chat ---- <TLRPCchannels$channelFullPtV3: 0x282acacb0>
+2025-03-09 03:02: 4.323 [MTProto#0x28207b700 preparing msgsAck (7479747919382426624/0)]
+2025-03-09 03:02: 4.323 [MTProto#0x28207b700 preparing <TLRPCchannels_getFullChannel$channels_getFullChannel: 0x2813302c0> (7479747919383641088/0)]
+2025-03-09 03:02: 4.323 [MTProto#0x28207b700 preparing msgsAck (7479747919385676800/0)]
+2025-03-09 03:02: 4.323 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2810f63a0> (7479747919385883648/0)]
+2025-03-09 03:02: 4.482 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810de880> (7479747927047582889)]
+2025-03-09 03:02: 4.482 [MTRequestMessageService#0x28354c1e0 response for 7479747916049239040 is <TLmessages_Messages$messages_channelMessages: 0x280a54500>]
+2025-03-09 03:02: 4.662 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x28133eda0> (7479747927310934999)]
+2025-03-09 03:02: 4.662 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x28133ede0> (7479747927487550159)]
+2025-03-09 03:02: 4.663 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281034c00> (7479747927560124519)]
+2025-03-09 03:02: 4.663 [MTRequestMessageService#0x28354c1e0 response for 7479747919385883648 is <TLUpdates_ChannelDifference$empty: 0x2810350a0>]
+2025-03-09 03:02: 4.663 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281027e40> (7479747927675040425)]
+2025-03-09 03:02: 4.664 [MTRequestMessageService#0x28354c1e0 response for 7479747919383641088 is <TLmessages_ChatFull$messages_chatFull: 0x281023000>]
+2025-03-09 03:02: 5.159 ATQueue count = 3
+2025-03-09 03:02:13.902 request hole 3075 ... 3312, earlier
+2025-03-09 03:02:13.903 messages_getHistory-2 log
+channel_id:83887787min_id:3074 max_id:3313 offset_id:3313 add_offset:0
+2025-03-09 03:02:13.903 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281da1500> (7479747960530493440/0)]
+2025-03-09 03:02:14.716 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281722be0> (7479747970504793627)]
+2025-03-09 03:02:14.722 [MTRequestMessageService#0x28354c1e0 response for 7479747960530493440 is <TLmessages_Messages$messages_channelMessages: 0x280a0e740>]
+2025-03-09 03:02:14.784 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:02:14.784 cached_page: <TLPage$pageFull: 0x281738500>
+2025-03-09 03:02:14.784 cached_page counts: 0
+2025-03-09 03:02:14.784 cached_page: <TLPage$pageFull: 0x28173b580>
+2025-03-09 03:02:14.785 cached_page counts: 0
+2025-03-09 03:02:14.822 cached_page: <TLPage$pageFull: 0x281739a40>
+2025-03-09 03:02:14.822 cached_page counts: 0
+2025-03-09 03:02:14.954 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:14.955     3213 ... 3312 (pts 1)
+2025-03-09 03:02:14.960 Memory cache disabled for /img/(download:{filter:maybeScale}2_-5283144045348296922_226673479_5108084877265556803_0)
+2025-03-09 03:02:14.961 Memory cache disabled for /img/(download:{filter:maybeScale}2_-5283144045348296922_226665338_5108084877265556803_0)
+2025-03-09 03:02:14.962 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281088fe0> (7479747965077746688/0)]
+2025-03-09 03:02:14.963 media_http_url = https://15.197.65.95:9999/media/down/file
+2025-03-09 03:02:14.963 _media_cdn_url = https://mdnc.cdmmc.org
+2025-03-09 03:02:14.964 [TGNetworkWorker#8307bac0/2 start (1)]
+2025-03-09 03:02:14.964 [TGNetworkWorker#8307bbb0/2 start (2)]
+2025-03-09 03:02:14.968 [MTProto#0x2820c21c0 changing transport #0x0 to MTTcpTransport#0x28307bca0]
+2025-03-09 03:02:14.968 [MTProto#0x2820c2260 changing transport #0x0 to MTTcpTransport#0x28307bcf0]
+2025-03-09 03:02:14.968 [MTNetworkAvailability#0x281de8510 state: L_-U_+]
+2025-03-09 03:02:14.969 [MTProto#0x2820c21c0 network state: available]
+2025-03-09 03:02:14.969 [MTProto#0x2820c21c0 connection state: connecting]
+2025-03-09 03:02:14.969 [MTProto#0x2820c21c0 connection context update state: up to date]
+2025-03-09 03:02:14.969 [MTProto#0x2820c2260 network state: available]
+2025-03-09 03:02:14.969 [MTProto#0x2820c2260 connection state: connecting]
+2025-03-09 03:02:14.969 [MTProto#0x2820c2260 connection context update state: up to date]
+2025-03-09 03:02:14.970 [MTNetworkAvailability#0x281de8270 state: L_-U_+]
+2025-03-09 03:02:14.973 [MTTcpConnection#82847800 connecting to 99.83.186.166:20335]
+2025-03-09 03:02:14.989 [MTTcpConnection#82847640 connecting to 99.83.186.166:20335]
+2025-03-09 03:02:15.026 Connection time: 36.321044 ms, interface: WAN
+2025-03-09 03:02:15.027 [MTProto#0x2820c21c0 connection state: connected]
+2025-03-09 03:02:15.027 [MTProto#0x2820c21c0 preparing ping (7479747965359432704/0)]
+2025-03-09 03:02:15.027 [MTProto#0x2820c21c0 preparing <TLRPCupload_getFile$upload_getFile: 0x28173e1c0> (7479747965359672320/0)]
+2025-03-09 03:02:15.027 [MTProto#0x2820c21c0 connection context update state: updating]
+2025-03-09 03:02:15.029 Connection time: 37.000060 ms, interface: WAN
+2025-03-09 03:02:15.029 [MTProto#0x2820c2260 connection state: connected]
+2025-03-09 03:02:15.029 [MTProto#0x2820c2260 preparing ping (7479747965368757248/0)]
+2025-03-09 03:02:15.030 [MTProto#0x2820c2260 preparing <TLRPCupload_getFile$upload_getFile: 0x28173dde0> (7479747965368976384/0)]
+2025-03-09 03:02:15.030 [MTProto#0x2820c2260 connection context update state: updating]
+2025-03-09 03:02:15.226 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28170da60> (7479747973197227823)]
+2025-03-09 03:02:15.226 [MTRequestMessageService#0x28354c1e0 response for 7479747965077746688 is <TLchannelDifferenceTooLong: 0x280a05200>]
+2025-03-09 03:02:15.379 [MTProto#0x2820c2260 received <MTMsgsAckMessage: 0x2813ea330> (7479747975411324719)]
+2025-03-09 03:02:15.411 [MTProto#0x2820c21c0 received <MTMsgsAckMessage: 0x2813ebe00> (7479747974427409459)]
+2025-03-09 03:02:15.451 [MTProto#0x2820c21c0 received <MTPongMessage: 0x28173d4a0> (7479747974430695851)]
+2025-03-09 03:02:15.451 [MTProto#0x2820c21c0 received <MTNewSessionCreatedMessage: 0x28173ecc0> (7479747974431850327)]
+2025-03-09 03:02:15.451 [MTProto#0x2820c21c0 connection context update state: up to date]
+2025-03-09 03:02:15.461 [MTProto#0x2820c2260 received <MTPongMessage: 0x28173f8c0> (7479747975414810123)]
+2025-03-09 03:02:15.462 [MTProto#0x2820c2260 connection context update state: up to date]
+2025-03-09 03:02:15.462 [MTProto#0x2820c2260 received <MTNewSessionCreatedMessage: 0x281720be0> (7479747975417166343)]
+2025-03-09 03:02:15.634 [MTProto#0x2820c2260 received <MTRpcResultMessage: 0x28173f0e0> (7479747975698939389)]
+2025-03-09 03:02:15.636 [MTRequestMessageService#0x2834efcc0 response for 7479747965368976384 is <TLupload_File$upload_file: 0x28173dd60>]
+2025-03-09 03:02:15.652 [MTProto#0x2820c21c0 received <MTRpcResultMessage: 0x28173f180> (7479747974576361333)]
+2025-03-09 03:02:15.668 [MTRequestMessageService#0x2834eee20 response for 7479747965359672320 is <TLupload_File$upload_file: 0x281720300>]
+2025-03-09 03:02:18.553 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:18.553     2771 ... 2831 (pts 2942)
+2025-03-09 03:02:18.554 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2817ff140> (7479747980505441280/0)]
+2025-03-09 03:02:19.017 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2817f2ac0> (7479747989346806103)]
+2025-03-09 03:02:19.018 [MTRequestMessageService#0x28354c1e0 response for 7479747980505441280 is <TLchannelDifferenceTooLong: 0x280a2fe00>]
+2025-03-09 03:02:19.553 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x2817fed60> (7479747984798360576/0)]
+2025-03-09 03:02:19.868 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x28108a500> (7479747986150290432/0)]
+2025-03-09 03:02:19.870 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x281011820> (7479747986157124608/0)]
+2025-03-09 03:02:19.883 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2817c51c0> (7479747992964108983)]
+2025-03-09 03:02:19.883 [MTRequestMessageService#0x28354c1e0 response for 7479747984798360576 is <TLmessages_Messages$messages_channelMessages: 0x280a0e640>]
+2025-03-09 03:02:20.102 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:20.103     2671 ... 2770 (pts 2942)
+2025-03-09 03:02:20.103 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2817eafe0> (7479747987161700352/0)]
+2025-03-09 03:02:20.107 message downloaded: type: accept {message text: https://cloff.ai/hottok?r=8048234317 -- webPage: (null) --- (null)}
+2025-03-09 03:02:20.107 Unloaded 284 items below (500 now)
+2025-03-09 03:02:20.133 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2817f23c0> (7479747994238001311)]
+2025-03-09 03:02:20.133 [MTRequestMessageService#0x28354c1e0 response for 7479747986150290432 is <TLmessages_Messages$messages_channelMessages: 0x280a14bc0>]
+2025-03-09 03:02:20.305 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281747420> (7479747994730900459)]
+2025-03-09 03:02:20.305 [MTRequestMessageService#0x28354c1e0 response for 7479747986157124608 is <TLmessages_Messages$messages_channelMessages: 0x280a14ec0>]
+2025-03-09 03:02:20.550 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281746ee0> (7479747995228961735)]
+2025-03-09 03:02:20.550 [MTRequestMessageService#0x28354c1e0 response for 7479747987161700352 is <TLchannelDifferenceTooLong: 0x280a15300>]
+2025-03-09 03:02:21.122 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x2817fde20> (7479747991537519616/0)]
+2025-03-09 03:02:21.293 [MTProto#0x28207b700 preparing <TLRPCchannels_getParticipants$channels_getParticipants: 0x281d04d50> (7479747992270134272/0)]
+2025-03-09 03:02:21.369 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810ff700> (7479747999583890419)]
+2025-03-09 03:02:21.369 [MTRequestMessageService#0x28354c1e0 response for 7479747991537519616 is <TLmessages_Messages$messages_channelMessages: 0x280a15b80>]
+2025-03-09 03:02:21.370 message downloaded: type: accept {message text: https://cloff.ai/hottok?r=8048234317 -- webPage: (null) --- (null)}
+2025-03-09 03:02:21.551 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810fc060> (7479748000265416703)]
+2025-03-09 03:02:21.552 [MTRequestMessageService#0x28354c1e0 response for 7479747992270134272 is error: 400: INTERNAL_SERVER_ERROR]
+2025-03-09 03:02:21.837 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281006840> (7479747994606464000/0)]
+2025-03-09 03:02:22.069 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281036520> (7479748002564718823)]
+2025-03-09 03:02:22.069 [MTRequestMessageService#0x28354c1e0 response for 7479747994606464000 is <TLUpdates_ChannelDifference$empty: 0x281037420>]
+2025-03-09 03:02:28.006 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:28.006     2571 ... 2670 (pts 2942)
+2025-03-09 03:02:28.007 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2810972a0> (7479748021106673664/0)]
+2025-03-09 03:02:28.261 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810a26a0> (7479748029181238491)]
+2025-03-09 03:02:28.261 [MTRequestMessageService#0x28354c1e0 response for 7479748021106673664 is <TLchannelDifferenceTooLong: 0x280a6d180>]
+2025-03-09 03:02:29.013 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x28109d440> (7479748025400613888/0)]
+2025-03-09 03:02:29.265 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810a2800> (7479748033475315635)]
+2025-03-09 03:02:29.265 [MTRequestMessageService#0x28354c1e0 response for 7479748025400613888 is <TLmessages_Messages$messages_channelMessages: 0x280a57b40>]
+2025-03-09 03:02:29.265 message downloaded: type: accept {message text: https://cloff.ai/hottok?r=8048234317 -- webPage: (null) --- (null)}
+2025-03-09 03:02:30.644 ===== Setting presence: online
+2025-03-09 03:02:30.647 [MTProto#0x28207b700 preparing <TLRPCaccount_updateStatus$account_updateStatus: 0x2811464c0> (7479748032442909696/0)]
+2025-03-09 03:02:30.649 st story data updateItemPeer - 91399161 hidden - 0 newPeerHidden - 0
+2025-03-09 03:02:30.649 st story data accountItem - SubscriptionsItem - 0x280a303c0 storyCount - 0 unseenCount - 0 hidden - 0 hasPending - 0 readModel - (null) itemModels count - 0 hasMoreToken - 1738791911:1738791911:0:c16e230a95533614c11c9782884d7995
+2025-03-09 03:02:30.650 st story data autoExpiredStories cancel hasAutoExpiredStoriesTask true ~~
+2025-03-09 03:02:30.870 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28173bf80> (7479748040390861173)]
+2025-03-09 03:02:30.870 [MTRequestMessageService#0x28354c1e0 response for 7479748032442909696 is 1]
+2025-03-09 03:02:30.909 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:30.909     2475 ... 2570 (pts 2942)
+2025-03-09 03:02:30.915 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281747160> (7479748033596622848/0)]
+2025-03-09 03:02:30.923 Unloaded 200 items below (500 now)
+2025-03-09 03:02:31.168 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281745280> (7479748041668587447)]
+2025-03-09 03:02:31.168 [MTRequestMessageService#0x28354c1e0 response for 7479748033596622848 is <TLchannelDifferenceTooLong: 0x280a02c00>]
+2025-03-09 03:02:31.914 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x2817ff2a0> (7479748037881832448/0)]
+2025-03-09 03:02:32.331 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281050900> (7479748046511563203)]
+2025-03-09 03:02:32.331 [MTRequestMessageService#0x28354c1e0 response for 7479748037881832448 is <TLmessages_Messages$messages_channelMessages: 0x280a55400>]
+2025-03-09 03:02:32.369 message downloaded: type: accept {message text: https://cloff.ai/hottok?r=8048234317 -- webPage: (null) --- (null)}
+2025-03-09 03:02:34.668 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2810e4da0> (7479748049714562048/0)]
+2025-03-09 03:02:34.905 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28175fc00> (7479748057711302523)]
+2025-03-09 03:02:34.906 [MTRequestMessageService#0x28354c1e0 response for 7479748049714562048 is <TLUpdates_ChannelDifference$empty: 0x28175ef20>]
+2025-03-09 03:02:35.594 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:35.595     2270 ... 2303 (pts 2942)
+2025-03-09 03:02:35.596 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2817c5a40> (7479748053700072448/0)]
+2025-03-09 03:02:35.609 Unloaded 200 items below (500 now)
+2025-03-09 03:02:35.911 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281739c80> (7479748061942138923)]
+2025-03-09 03:02:35.912 [MTRequestMessageService#0x28354c1e0 response for 7479748053700072448 is <TLchannelDifferenceTooLong: 0x280a137c0>]
+2025-03-09 03:02:36.597 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x28175a7a0> (7479748057999686656/0)]
+2025-03-09 03:02:36.786 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:36.786     2231 ... 2269 (pts 2942)
+2025-03-09 03:02:36.787 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x28173f240> (7479748058816864256/0)]
+2025-03-09 03:02:36.844 st story data autoExpiredStories start~~
+2025-03-09 03:02:36.844 st story data autoExpiredStories storyMinimumDate - 0 nowDate - 1741514554 diff - -1741514554
+2025-03-09 03:02:36.851 [MTProto#0x28207b700 preparing <TLRPChelp_getInviteText$help_getInviteText: 0x2813e7f70> (7479748059090642944/0)]
+2025-03-09 03:02:36.851 [MTProto#0x28207b700 preparing <TLRPChelp_getConfig$help_getConfig: 0x2813e78e0> (7479748059091269632/0)]
+2025-03-09 03:02:36.851 [MTProto#0x28207b700 preparing <TLRPCusers_getUsers$users_getUsers: 0x2813e7a80> (7479748059091459072/0)]
+2025-03-09 03:02:36.903 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281062c60> (7479748066297934011)]
+2025-03-09 03:02:36.903 [MTRequestMessageService#0x28354c1e0 response for 7479748057999686656 is <TLmessages_Messages$messages_channelMessages: 0x280a01080>]
+2025-03-09 03:02:36.903 message downloaded: type: accept {message text: https://cloff.ai/hottok?r=8048234317 -- webPage: (null) --- (null)}
+2025-03-09 03:02:37.083 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810f53e0> (7479748066854832555)]
+2025-03-09 03:02:37.084 [MTRequestMessageService#0x28354c1e0 response for 7479748058816864256 is <TLchannelDifferenceTooLong: 0x280a01780>]
+2025-03-09 03:02:37.084 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x2813e07f0> (7479748067014707903)]
+2025-03-09 03:02:37.085 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810f53e0> (7479748067028496675)]
+2025-03-09 03:02:37.085 [MTRequestMessageService#0x28354c1e0 response for 7479748059090642944 is <TLhelp_InviteText$help_inviteText: 0x2813e22e0>]
+2025-03-09 03:02:37.085 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810f53e0> (7479748067044952813)]
+2025-03-09 03:02:37.085 [MTRequestMessageService#0x28354c1e0 response for 7479748059091459072 is (
+    "<TLUser$user: 0x282620790>"
+)]
+2025-03-09 03:02:37.085 st story data updateItemPeer - 91399161 hidden - 0 newPeerHidden - 0
+2025-03-09 03:02:37.085 st story data accountItem - SubscriptionsItem - 0x280a3f2c0 storyCount - 0 unseenCount - 0 hidden - 0 hasPending - 0 readModel - (null) itemModels count - 0 hasMoreToken - 1738791911:1738791911:0:c16e230a95533614c11c9782884d7995
+2025-03-09 03:02:37.262 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281720660> (7479748067171532167)]
+2025-03-09 03:02:37.262 [MTRequestMessageService#0x28354c1e0 response for 7479748059091269632 is <TLConfig$config: 0x2820c6580>]
+2025-03-09 03:02:37.262 st config flag - 836424762
+2025-03-09 03:02:37.279 store enable = 1048576
+2025-03-09 03:02:37.279 st badge updateConfig discoverBadgeDate - 61 previousDiscoverBadgeDate - 61
+2025-03-09 03:02:37.279 pcPayEnabled changed to 0
+2025-03-09 03:02:37.281 st story enabled - 1 _storiesEnabled - 1
+2025-03-09 03:02:37.281 st story enabled for settings - 1 _storiesEnabled - 1
+2025-03-09 03:02:37.281 st tabbar walletHidden -- 0
+2025-03-09 03:02:37.493 request hole 1 ... 2230, earlier
+2025-03-09 03:02:37.493 messages_getHistory-2 log
+channel_id:83887787min_id:0 max_id:2231 offset_id:2231 add_offset:0
+2025-03-09 03:02:37.493 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281de9050> (7479748061851374592/0)]
+2025-03-09 03:02:38.179 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2817090e0> (7479748071351867667)]
+2025-03-09 03:02:38.179 [MTRequestMessageService#0x28354c1e0 response for 7479748061851374592 is <TLmessages_Messages$messages_channelMessages: 0x280a02d40>]
+2025-03-09 03:02:38.232 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:02:38.232 cached_page: <TLPage$pageFull: 0x281709c20>
+2025-03-09 03:02:38.232 cached_page counts: 0
+2025-03-09 03:02:38.388 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:38.388     2131 ... 2230 (pts 1)
+2025-03-09 03:02:38.388 request hole 1 ... 2230, earlier
+2025-03-09 03:02:38.388 messages_getHistory-2 log
+channel_id:83887787min_id:0 max_id:2231 offset_id:2231 add_offset:0
+2025-03-09 03:02:38.389 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281c52b20> (7479748065696869376/0)]
+2025-03-09 03:02:38.389 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2817e4320> (7479748065697127424/0)]
+2025-03-09 03:02:38.397 Memory cache disabled for /img/(download:{filter:maybeScale}2_-5645331726817683855_226537922_2529288440870425538_0)
+2025-03-09 03:02:38.399 [MTProto#0x2820c21c0 preparing msgsAck (7479748065740137472/0)]
+2025-03-09 03:02:38.399 [MTProto#0x2820c21c0 preparing <TLRPCupload_getFile$upload_getFile: 0x28173e060> (7479748065740459008/0)]
+2025-03-09 03:02:38.611 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x2813ecc30> (7479748073618436723)]
+2025-03-09 03:02:38.619 [MTProto#0x2820c21c0 received <MTMsgsAckMessage: 0x2813e3d70> (7479748074112349251)]
+2025-03-09 03:02:38.787 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28102e360> (7479748074187091063)]
+2025-03-09 03:02:38.787 [MTRequestMessageService#0x28354c1e0 response for 7479748065697127424 is <TLchannelDifferenceTooLong: 0x280a42280>]
+2025-03-09 03:02:38.863 [MTProto#0x2820c21c0 received <MTRpcResultMessage: 0x2810fa7e0> (7479748074274669877)]
+2025-03-09 03:02:38.865 [MTRequestMessageService#0x2834eee20 response for 7479748065740459008 is <TLupload_File$upload_file: 0x2810f9b60>]
+2025-03-09 03:02:38.972 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281103cc0> (7479748074495438903)]
+2025-03-09 03:02:38.972 [MTRequestMessageService#0x28354c1e0 response for 7479748065696869376 is <TLmessages_Messages$messages_channelMessages: 0x280b58740>]
+2025-03-09 03:02:38.972 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:02:38.973 cached_page: <TLPage$pageFull: 0x281063400>
+2025-03-09 03:02:38.973 cached_page counts: 0
+2025-03-09 03:02:39.778 request hole 1 ... 2130, earlier
+2025-03-09 03:02:39.778 messages_getHistory-2 log
+channel_id:83887787min_id:0 max_id:2131 offset_id:2131 add_offset:0
+2025-03-09 03:02:39.778 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281d51d10> (7479748071664206848/0)]
+2025-03-09 03:02:40.265 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2817c6280> (7479748080715592435)]
+2025-03-09 03:02:40.269 [MTRequestMessageService#0x28354c1e0 response for 7479748071664206848 is <TLmessages_Messages$messages_channelMessages: 0x280bb7740>]
+2025-03-09 03:02:40.321 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:02:40.464 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:40.464     2031 ... 2130 (pts 1)
+2025-03-09 03:02:40.464 request hole 1 ... 2130, earlier
+2025-03-09 03:02:40.464 messages_getHistory-2 log
+channel_id:83887787min_id:0 max_id:2131 offset_id:2131 add_offset:0
+2025-03-09 03:02:40.465 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281c0cf00> (7479748074613388288/0)]
+2025-03-09 03:02:40.465 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x28118a9c0> (7479748074613620736/0)]
+2025-03-09 03:02:40.482 Unloaded 240 items below (500 now)
+2025-03-09 03:02:40.683 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x2813f61b0> (7479748082533916131)]
+2025-03-09 03:02:40.864 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281005e40> (7479748083203674523)]
+2025-03-09 03:02:40.864 [MTRequestMessageService#0x28354c1e0 response for 7479748074613620736 is <TLchannelDifferenceTooLong: 0x280a6d000>]
+2025-03-09 03:02:41.047 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810884e0> (7479748083698325163)]
+2025-03-09 03:02:41.050 [MTRequestMessageService#0x28354c1e0 response for 7479748074613388288 is <TLmessages_Messages$messages_channelMessages: 0x280a5e040>]
+2025-03-09 03:02:41.052 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:02:41.551 request hole 1 ... 2030, earlier
+2025-03-09 03:02:41.551 messages_getHistory-2 log
+channel_id:83887787min_id:0 max_id:2031 offset_id:2031 add_offset:0
+2025-03-09 03:02:41.552 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281d14000> (7479748079280458752/0)]
+2025-03-09 03:02:42.164 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810fe8c0> (7479748088678075883)]
+2025-03-09 03:02:42.169 [MTRequestMessageService#0x28354c1e0 response for 7479748079280458752 is <TLmessages_Messages$messages_channelMessages: 0x280a54640>]
+2025-03-09 03:02:42.246 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:02:42.246 cached_page: <TLPage$pageFull: 0x2810fff60>
+2025-03-09 03:02:42.246 cached_page counts: 0
+2025-03-09 03:02:42.396 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:42.396     1931 ... 2030 (pts 1)
+2025-03-09 03:02:42.398 Memory cache disabled for /img/(download:{filter:maybeScale}2_-5645331726817683855_226527817_2529288440870425538_0)
+2025-03-09 03:02:42.398 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2810bd460> (7479748082916746240/0)]
+2025-03-09 03:02:42.404 [MTProto#0x2820c21c0 preparing <TLRPCupload_getFile$upload_getFile: 0x2810cf0c0> (7479748082941780992/0)]
+2025-03-09 03:02:42.785 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810ee4a0> (7479748091552225795)]
+2025-03-09 03:02:42.785 [MTRequestMessageService#0x28354c1e0 response for 7479748082916746240 is <TLchannelDifferenceTooLong: 0x280a53300>]
+2025-03-09 03:02:42.871 [MTProto#0x2820c21c0 received <MTRpcResultMessage: 0x2810de040> (7479748091497358425)]
+2025-03-09 03:02:42.873 [MTRequestMessageService#0x2834eee20 response for 7479748082941780992 is <TLupload_File$upload_file: 0x2810dec40>]
+2025-03-09 03:02:43.746 request hole 1 ... 1930, earlier
+2025-03-09 03:02:43.746 messages_getHistory-2 log
+channel_id:83887787min_id:0 max_id:1931 offset_id:1931 add_offset:0
+2025-03-09 03:02:43.747 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281d07d50> (7479748088708084736/0)]
+2025-03-09 03:02:44.418 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281702ca0> (7479748098289233163)]
+2025-03-09 03:02:44.421 [MTRequestMessageService#0x28354c1e0 response for 7479748088708084736 is <TLmessages_Messages$messages_channelMessages: 0x280a2bc40>]
+2025-03-09 03:02:44.473 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:02:44.473 cached_page: <TLPage$pageFull: 0x2810edee0>
+2025-03-09 03:02:44.473 cached_page counts: 0
+2025-03-09 03:02:44.473 cached_page: <TLPage$pageFull: 0x2810c35e0>
+2025-03-09 03:02:44.473 cached_page counts: 0
+2025-03-09 03:02:44.619 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:44.619     1831 ... 1930 (pts 1)
+2025-03-09 03:02:44.623 Memory cache disabled for /img/(download:{filter:maybeScale}2_-5645331726817683855_226518073_2529288440870425538_0)
+2025-03-09 03:02:44.629 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2817869e0> (7479748092489450496/0)]
+2025-03-09 03:02:44.629 [MTProto#0x2820c21c0 preparing <TLRPCupload_getFile$upload_getFile: 0x2817878a0> (7479748092490687488/0)]
+2025-03-09 03:02:44.640 Unloaded 200 items below (500 now)
+2025-03-09 03:02:44.921 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281714040> (7479748100705511639)]
+2025-03-09 03:02:44.921 [MTRequestMessageService#0x28354c1e0 response for 7479748092489450496 is <TLchannelDifferenceTooLong: 0x280a52080>]
+2025-03-09 03:02:45.089 [MTProto#0x2820c21c0 received <MTRpcResultMessage: 0x281710300> (7479748101024811157)]
+2025-03-09 03:02:45.092 [MTRequestMessageService#0x2834eee20 response for 7479748092490687488 is <TLupload_File$upload_file: 0x281710580>]
+2025-03-09 03:02:45.620 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x281785ba0> (7479748096754998272/0)]
+2025-03-09 03:02:45.636 [TGNetworkWorker#8307bbb0 stop (1)]
+2025-03-09 03:02:45.637 [MTProto#0x2820c2260 changing transport MTTcpTransport#0x28307bcf0 to #0x0]
+2025-03-09 03:02:45.637 [MTTcpConnection#82847640 disconnected from 99.83.186.166]
+2025-03-09 03:02:45.945 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2817447c0> (7479748104973879291)]
+2025-03-09 03:02:45.946 [MTRequestMessageService#0x28354c1e0 response for 7479748096754998272 is <TLmessages_Messages$messages_channelMessages: 0x280a2e640>]
+2025-03-09 03:02:45.946 message downloaded: type: accept {message text: https://dlj199.org/joinchat/SYNc_UIr205CJEB9pTNhzg -- webPage: (null) --- (null)}
+2025-03-09 03:02:50.181 request hole 1 ... 1830, earlier
+2025-03-09 03:02:50.181 messages_getHistory-2 log
+channel_id:83887787min_id:0 max_id:1831 offset_id:1831 add_offset:0
+2025-03-09 03:02:50.183 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281dee400> (7479748116351734784/0)]
+2025-03-09 03:02:50.765 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810a0820> (7479748125569346363)]
+2025-03-09 03:02:50.769 [MTRequestMessageService#0x28354c1e0 response for 7479748116351734784 is <TLmessages_Messages$messages_channelMessages: 0x280a2c6c0>]
+2025-03-09 03:02:50.835 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:02:50.835 cached_page: <TLPage$pageFull: 0x28109da00>
+2025-03-09 03:02:50.835 cached_page counts: 0
+2025-03-09 03:02:51.008 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:51.008     1731 ... 1830 (pts 1)
+2025-03-09 03:02:51.017 Memory cache disabled for /img/(download:{filter:maybeScale}2_-5575015716248568558_226508367_7724420801302373227_0)
+2025-03-09 03:02:51.019 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281770b60> (7479748119922953216/0)]
+2025-03-09 03:02:51.019 [MTProto#0x2820c21c0 preparing <TLRPCupload_getFile$upload_getFile: 0x28108ba00> (7479748119930070016/0)]
+2025-03-09 03:02:51.373 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810627c0> (7479748128247161675)]
+2025-03-09 03:02:51.374 [MTRequestMessageService#0x28354c1e0 response for 7479748119922953216 is <TLchannelDifferenceTooLong: 0x280a27600>]
+2025-03-09 03:02:51.534 [MTProto#0x2820c21c0 received <MTRpcResultMessage: 0x2817ea4a0> (7479748128627316029)]
+2025-03-09 03:02:51.536 [MTRequestMessageService#0x2834eee20 response for 7479748119930070016 is <TLupload_File$upload_file: 0x2817eb120>]
+2025-03-09 03:02:51.999 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x2810f2c60> (7479748124152314880/0)]
+2025-03-09 03:02:52.070 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x2817f3560> (7479748124457287680/0)]
+2025-03-09 03:02:52.285 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2817e91e0> (7479748132362984315)]
+2025-03-09 03:02:52.285 [MTRequestMessageService#0x28354c1e0 response for 7479748124152314880 is <TLmessages_Messages$messages_channelMessages: 0x280a37480>]
+2025-03-09 03:02:52.286 message downloaded: type: accept {message text: https://dlj199.org/joinchat/SYNc_UIr205CJEB9pTNhzg -- webPage: (null) --- (null)}
+2025-03-09 03:02:52.468 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2817eaac0> (7479748132584783215)]
+2025-03-09 03:02:52.468 [MTRequestMessageService#0x28354c1e0 response for 7479748124457287680 is <TLUpdates_ChannelDifference$empty: 0x2817eb7a0>]
+2025-03-09 03:02:54.781 request hole 1 ... 1730, earlier
+2025-03-09 03:02:54.781 messages_getHistory-2 log
+channel_id:83887787min_id:0 max_id:1731 offset_id:1731 add_offset:0
+2025-03-09 03:02:54.782 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281dee580> (7479748136103521280/0)]
+2025-03-09 03:02:55.267 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281173da0> (7479748145120421975)]
+2025-03-09 03:02:55.272 [MTRequestMessageService#0x28354c1e0 response for 7479748136103521280 is <TLmessages_Messages$messages_channelMessages: 0x280a2eb80>]
+2025-03-09 03:02:55.342 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:02:55.489 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:55.489     1631 ... 1730 (pts 1)
+2025-03-09 03:02:55.489 request hole 1 ... 1730, earlier
+2025-03-09 03:02:55.489 messages_getHistory-2 log
+channel_id:83887787min_id:0 max_id:1731 offset_id:1731 add_offset:0
+2025-03-09 03:02:55.489 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281c27b40> (7479748139142484992/0)]
+2025-03-09 03:02:55.489 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x281787ec0> (7479748139142743040/0)]
+2025-03-09 03:02:55.519 Unloaded 200 items below (500 now)
+2025-03-09 03:02:55.707 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x2813f9d20> (7479748147063941851)]
+2025-03-09 03:02:55.888 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2817e0400> (7479748147231557647)]
+2025-03-09 03:02:55.888 [MTRequestMessageService#0x28354c1e0 response for 7479748139142743040 is <TLchannelDifferenceTooLong: 0x280a031c0>]
+2025-03-09 03:02:56.068 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28171ade0> (7479748147884035279)]
+2025-03-09 03:02:56.069 [MTRequestMessageService#0x28354c1e0 response for 7479748139142484992 is <TLmessages_Messages$messages_channelMessages: 0x280a6d740>]
+2025-03-09 03:02:56.072 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:02:56.489 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x281787e00> (7479748143436412928/0)]
+2025-03-09 03:02:56.800 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281089ee0> (7479748151626676171)]
+2025-03-09 03:02:56.801 [MTRequestMessageService#0x28354c1e0 response for 7479748143436412928 is <TLmessages_Messages$messages_channelMessages: 0x280a3dbc0>]
+2025-03-09 03:02:56.801 message downloaded: type: accept {message text: https://dlj199.org/joinchat/SYNc_UIr205CJEB9pTNhzg -- webPage: (null) --- (null)}
+2025-03-09 03:02:57.013 request hole 1 ... 1630, earlier
+2025-03-09 03:02:57.013 messages_getHistory-2 log
+channel_id:83887787min_id:0 max_id:1631 offset_id:1631 add_offset:0
+2025-03-09 03:02:57.014 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281df8840> (7479748145691524096/0)]
+2025-03-09 03:02:57.620 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281150a40> (7479748155055129815)]
+2025-03-09 03:02:57.623 [MTRequestMessageService#0x28354c1e0 response for 7479748145691524096 is <TLmessages_Messages$messages_channelMessages: 0x280a01480>]
+2025-03-09 03:02:57.684 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:02:57.684 cached_page: <TLPage$pageFull: 0x281716360>
+2025-03-09 03:02:57.684 cached_page counts: 0
+2025-03-09 03:02:57.836 Will invalidate message ranges to pts 3524:
+2025-03-09 03:02:57.836     1531 ... 1630 (pts 1)
+2025-03-09 03:02:57.836 request hole 1 ... 1630, earlier
+2025-03-09 03:02:57.836 messages_getHistory-2 log
+channel_id:83887787min_id:0 max_id:1631 offset_id:1631 add_offset:0
+2025-03-09 03:02:57.837 [MTProto#0x28207b700 preparing <TLRPCmessages_getHistory$messages_getHistory: 0x281c69710> (7479748149224792064/0)]
+2025-03-09 03:02:57.837 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x28173e980> (7479748149225044992/0)]
+2025-03-09 03:02:57.847 Memory cache disabled for /img/(download:{filter:maybeScale}2_-5575015716248568558_226486435_7724420801302373227_0)
+2025-03-09 03:02:57.848 [MTProto#0x2820c21c0 preparing <TLRPCupload_getFile$upload_getFile: 0x281724120> (7479748149273500672/0)]
+2025-03-09 03:02:58.070 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x2813e7ae0> (7479748157207190883)]
+2025-03-09 03:02:58.249 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2817e0a40> (7479748157339767975)]
+2025-03-09 03:02:58.249 [MTRequestMessageService#0x28354c1e0 response for 7479748149225044992 is <TLchannelDifferenceTooLong: 0x280a02a40>]
+2025-03-09 03:02:58.252 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28172f7a0> (7479748157831217987)]
+2025-03-09 03:02:58.252 [MTRequestMessageService#0x28354c1e0 response for 7479748149224792064 is <TLmessages_Messages$messages_channelMessages: 0x280a38c80>]
+2025-03-09 03:02:58.253 messages_getHistory-2 log
+pts:0 messagescount:100
+2025-03-09 03:02:58.253 cached_page: <TLPage$pageFull: 0x2817e3520>
+2025-03-09 03:02:58.253 cached_page counts: 0
+2025-03-09 03:02:58.317 [MTProto#0x2820c21c0 received <MTRpcResultMessage: 0x2817eaa20> (7479748157819513437)]
+2025-03-09 03:02:58.319 [MTRequestMessageService#0x2834eee20 response for 7479748149273500672 is <TLupload_File$upload_file: 0x2817e9800>]
+2025-03-09 03:02:58.836 [MTProto#0x28207b700 preparing <TLRPCchannels_getMessages$channels_getMessages: 0x28173ca00> (7479748153519033344/0)]
+2025-03-09 03:02:59.153 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281703740> (7479748161782711227)]
+2025-03-09 03:02:59.154 [MTRequestMessageService#0x28354c1e0 response for 7479748153519033344 is <TLmessages_Messages$messages_channelMessages: 0x280a066c0>]
+2025-03-09 03:02:59.154 message downloaded: type: accept {message text: https://dlj199.org/joinchat/SYNc_UIr205CJEB9pTNhzg -- webPage: (null) --- (null)}
+2025-03-09 03:03: 0.415 Cancelled 2 requests at once
+2025-03-09 03:03: 0.420 LiveLocationManager: unsubscribed from frequent location updates with peerId -4378855083
+2025-03-09 03:03: 0.420 LiveLocationManager: no more frequent location subscribers
+2025-03-09 03:03: 3.532 [MTProto#0x28207b700 preparing <TLRPCchannels_leaveChannel$channels_leaveChannel: 0x28131ad20> (7479748173684974592/0)]
+2025-03-09 03:03: 3.548 DB Error: 1 "no such column: timestamp"
+2025-03-09 03:03: 3.549 DB Query: SELECT mid, timestamp FROM channel_messages_v32 WHERE cid=? AND mid>=? LIMIT 1
+2025-03-09 03:03: 3.549 DB Path: /private/var/mobile/Containers/Shared/AppGroup/5831061B-2A44-4E51-9A5B-8DA21AC7CDE5/Documents/tgdata.db
+2025-03-09 03:03: 3.940 ***** DB Dispatch from databse:20833 took 0.399441 s
+2025-03-09 03:03: 3.949 st group filter dialogListItemsChanged insertedIndices -- 0 insertedItems -- 0 updatedIndices -- 0 updatedItems -- 0 removedIndices -- 1
+2025-03-09 03:03: 3.949 [MTProto#0x28207b700 preparing <TLRPCcontacts_resetTopPeerRating$contacts_resetTopPeerRating: 0x2810a03e0> (7479748175478029312/0)]
+2025-03-09 03:03: 3.962 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810a0ec0> (7479748182259531805)]
+2025-03-09 03:03: 3.962 [MTRequestMessageService#0x28354c1e0 response for 7479748173684974592 is <TLUpdates$updates: 0x281dbedf0>]
+2025-03-09 03:03: 4.162 (index) remove 1 index items completed
+2025-03-09 03:03: 4.225 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2817c54a0> (7479748183646739173)]
+2025-03-09 03:03: 4.225 [MTRequestMessageService#0x28354c1e0 response for 7479748175478029312 is 1]
+2025-03-09 03:03: 5.421 !=========== -[TGAppDelegate application:didFinishLaunchingWithOptions:]_block_invoke Time: 155.062910
+2025-03-09 03:03: 5.421 root controller ready
+2025-03-09 03:03: 7.159 >>>>>>currentType=8  status=1
+2025-03-09 03:03: 7.159 >>>>>>currentType=1  status=1
+2025-03-09 03:03: 7.159 >>>>>>currentType=6  status=1
+2025-03-09 03:03: 7.159 >>>>>>currentType=11  status=1
+2025-03-09 03:03: 7.159 >>>>>>currentType=1  status=1
+2025-03-09 03:03: 7.160 >>>>>>currentType=6  status=1
+2025-03-09 03:03: 7.161 st advert timeInterval - 1741514587 secretModel.cache - 1739257200
+2025-03-09 03:03: 7.168 st advert getAdverts begin identifier - PTAdvertManager-update-0x2811fc7a0
+2025-03-09 03:03: 7.168 [MTProto#0x28207b700 preparing <TLRPCadverts_getAdverts$adverts_getAdverts: 0x28131b970> (7479748189303940096/0)]
+2025-03-09 03:03: 7.396 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28171a660> (7479748197261312229)]
+2025-03-09 03:03: 7.397 [MTRequestMessageService#0x28354c1e0 response for 7479748189303940096 is (
+    "<TLDataJSON$dataJSON: 0x28131bce0>"
+)]
+2025-03-09 03:03:10.479 LiveLocationManager: no more active live location subscribers, stopping location updates
+2025-03-09 03:03:10.479 LiveLocationManager: stop location manager
+2025-03-09 03:03:11.330 System allowed background time remaining: 2147483647 m 7 s
+2025-03-09 03:03:11.367 Background time remaining: 0 m 40 s
+2025-03-09 03:03:11.368 LiveLocationManager: no more active live location subscribers, stopping location updates
+2025-03-09 03:03:11.368 LiveLocationManager: stop location manager
+2025-03-09 03:03:11.550 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:11.674 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:11.748 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x281063780> (7479748215480137619)]
+2025-03-09 03:03:11.748 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281316d40>"
+)
+2025-03-09 03:03:11.749 update: <TLUpdate$updateReadChannelOutbox: 0x281316d40>
+2025-03-09 03:03:12.010 !=========== -[TGAppDelegate application:didFinishLaunchingWithOptions:]_block_invoke Time: 161.652229
+2025-03-09 03:03:12.010 root controller ready
+2025-03-09 03:03:12.035 >>>>>>currentType=8  status=1
+2025-03-09 03:03:12.035 >>>>>>currentType=1  status=1
+2025-03-09 03:03:12.035 >>>>>>currentType=6  status=1
+2025-03-09 03:03:12.035 >>>>>>currentType=11  status=1
+2025-03-09 03:03:12.035 >>>>>>currentType=1  status=1
+2025-03-09 03:03:12.035 >>>>>>currentType=6  status=1
+2025-03-09 03:03:12.036 st advert timeInterval - 1741514592 secretModel.cache - 1739257200
+2025-03-09 03:03:12.037 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:12.046 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:12.047 st advert getAdverts begin identifier - PTAdvertManager-update-0x2811fc7a0
+2025-03-09 03:03:12.047 [MTProto#0x28207b700 preparing msgsAck (7479748210258583552/0)]
+2025-03-09 03:03:12.047 [MTProto#0x28207b700 preparing <TLRPCadverts_getAdverts$adverts_getAdverts: 0x28130f5e0> (7479748210258789376/0)]
+2025-03-09 03:03:12.253 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:12.300 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:12.351 !=========== -[TGAppDelegate application:didFinishLaunchingWithOptions:]_block_invoke Time: 161.993260
+2025-03-09 03:03:12.351 root controller ready
+2025-03-09 03:03:12.374 >>>>>>currentType=8  status=1
+2025-03-09 03:03:12.374 >>>>>>currentType=1  status=1
+2025-03-09 03:03:12.374 >>>>>>currentType=6  status=1
+2025-03-09 03:03:12.374 >>>>>>currentType=11  status=1
+2025-03-09 03:03:12.374 >>>>>>currentType=1  status=1
+2025-03-09 03:03:12.374 >>>>>>currentType=6  status=1
+2025-03-09 03:03:12.374 st advert timeInterval - 1741514592 secretModel.cache - 1739257200
+2025-03-09 03:03:12.380 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:12.381 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x2813016d0> (7479748218188088987)]
+2025-03-09 03:03:12.418 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:12.449 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810a3440> (7479748218208250425)]
+2025-03-09 03:03:12.449 [MTRequestMessageService#0x28354c1e0 response for 7479748210258789376 is (
+    "<TLDataJSON$dataJSON: 0x28133d840>"
+)]
+2025-03-09 03:03:12.637 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:12.681 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:12.912 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:12.914 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:13.105 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:13.147 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:13.197 !=========== -[TGAppDelegate application:didFinishLaunchingWithOptions:]_block_invoke Time: 162.839783
+2025-03-09 03:03:13.197 root controller ready
+2025-03-09 03:03:13.220 >>>>>>currentType=8  status=1
+2025-03-09 03:03:13.220 >>>>>>currentType=1  status=1
+2025-03-09 03:03:13.220 >>>>>>currentType=6  status=1
+2025-03-09 03:03:13.220 >>>>>>currentType=11  status=1
+2025-03-09 03:03:13.220 >>>>>>currentType=1  status=1
+2025-03-09 03:03:13.220 >>>>>>currentType=6  status=1
+2025-03-09 03:03:13.221 st advert timeInterval - 1741514593 secretModel.cache - 1739257200
+2025-03-09 03:03:13.224 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:13.226 st advert getAdverts begin identifier - PTAdvertManager-update-0x2811fc7a0
+2025-03-09 03:03:13.227 [MTProto#0x28207b700 preparing <TLRPCadverts_getAdverts$adverts_getAdverts: 0x281336050> (7479748215324905472/0)]
+2025-03-09 03:03:13.260 pt_theme----loadSavedPallete:0
+2025-03-09 03:03:13.359 applicationDidEnterBackground AQEntry Stop
+2025-03-09 03:03:13.462 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x28101eac0> (7479748223321555687)]
+2025-03-09 03:03:13.463 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281336890>"
+)
+2025-03-09 03:03:13.463 update: <TLUpdate$updateReadChannelOutbox: 0x281336890>
+2025-03-09 03:03:13.643 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28101da00> (7479748223327551233)]
+2025-03-09 03:03:13.643 [MTRequestMessageService#0x28354c1e0 response for 7479748215324905472 is (
+    "<TLDataJSON$dataJSON: 0x281332030>"
+)]
+2025-03-09 03:03:16.335 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x28101da60> (7479748235639158023)]
+2025-03-09 03:03:16.337 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281334440>"
+)
+2025-03-09 03:03:16.337 update: <TLUpdate$updateReadChannelOutbox: 0x281334440>
+2025-03-09 03:03:16.463 ===== Setting presence: offline
+2025-03-09 03:03:16.464 [MTProto#0x28207b700 preparing msgsAck (7479748229227762688/0)]
+2025-03-09 03:03:16.464 [MTProto#0x28207b700 preparing <TLRPCaccount_updateStatus$account_updateStatus: 0x2811ccd60> (7479748229228362752/0)]
+2025-03-09 03:03:16.688 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281332e50> (7479748237162390495)]
+2025-03-09 03:03:16.867 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28101f160> (7479748237166166165)]
+2025-03-09 03:03:16.868 [MTRequestMessageService#0x28354c1e0 response for 7479748229228362752 is 1]
+2025-03-09 03:03:17.317 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x28101d3e0> (7479748239825968455)]
+2025-03-09 03:03:17.318 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281337fe0>"
+)
+2025-03-09 03:03:17.318 update: <TLUpdate$updateReadChannelOutbox: 0x281337fe0>
+2025-03-09 03:03:21.170 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x2811c5f60> (7479748256121527763)]
+2025-03-09 03:03:21.171 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281331c10>"
+)
+2025-03-09 03:03:21.171 update: <TLUpdate$updateReadChannelOutbox: 0x281331c10>
+2025-03-09 03:03:21.889 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x2811c75c0> (7479748259440878535)]
+2025-03-09 03:03:21.893 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281332e50>"
+)
+2025-03-09 03:03:21.894 update: <TLUpdate$updateReadChannelOutbox: 0x281332e50>
+2025-03-09 03:03:22.569 [MTProto#0x28207b700 preparing msgsAck (7479748255450650624/0)]
+2025-03-09 03:03:22.570 [MTProto#0x28207b700 preparing <TLRPCupdates_getChannelDifference$updates_getChannelDifference: 0x28101d4a0> (7479748255451913216/0)]
+2025-03-09 03:03:22.800 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281336310> (7479748263410410087)]
+2025-03-09 03:03:22.979 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x28101f160> (7479748263423649107)]
+2025-03-09 03:03:22.979 [MTRequestMessageService#0x28354c1e0 response for 7479748255451913216 is <TLUpdates_ChannelDifference$empty: 0x28101fc60>]
+2025-03-09 03:03:26.394 [MTProto#0x28207b700 received <TLUpdates$updateShort: 0x28101ee40> (7479748278388632731)]
+2025-03-09 03:03:26.395 otherUpdates:
+(
+    "<TLUpdate$updateReadChannelOutbox: 0x281336310>"
+)
+2025-03-09 03:03:26.396 update: <TLUpdate$updateReadChannelOutbox: 0x281336310>
+2025-03-09 03:03:28.376 [TGNetworkWorker#8307bac0 stop (0)]
+2025-03-09 03:03:28.376 [MTProto#0x2820c21c0 changing transport MTTcpTransport#0x28307bca0 to #0x0]
+2025-03-09 03:03:28.378 [MTTcpConnection#82847800 disconnected from 99.83.186.166]
+2025-03-09 03:03:30.627 ===== Setting presence: offline
+2025-03-09 03:03:30.628 [MTProto#0x28207b700 preparing msgsAck (7479748290062584832/0)]
+2025-03-09 03:03:30.628 [MTProto#0x28207b700 preparing <TLRPCaccount_updateStatus$account_updateStatus: 0x28101eac0> (7479748290063512576/0)]
+2025-03-09 03:03:30.851 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x2813325b0> (7479748297993274623)]
+2025-03-09 03:03:31.030 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2811c40e0> (7479748297996580805)]
+2025-03-09 03:03:31.030 [MTRequestMessageService#0x28354c1e0 response for 7479748290063512576 is 1]
+2025-03-09 03:03:31.381 [MTProto#0x28207b700 received <TLUpdates$updates: 0x281e95980> (7479748300266824379)]
+2025-03-09 03:03:31.414 message date: 1741514611
+2025-03-09 03:03:31.414 otherUpdates:
+(
+    "<TLUpdate$updateNewChannelMessage: 0x28101cb00>"
+)
+2025-03-09 03:03:31.417 update: <TLUpdate$updateNewChannelMessage: 0x28101cb00>, pts: 80790, ptsCount: 1
+2025-03-09 03:03:31.440 [MTProto#0x28207b700 preparing msgsAck (7479748293549561856/0)]
+2025-03-09 03:03:31.441 [MTProto#0x28207b700 preparing <TLRPCchannels_getParticipants$channels_getParticipants: 0x281e979c0> (7479748293550222336/0)]
+2025-03-09 03:03:31.550 ===== Updating typing statuses
+2025-03-09 03:03:31.552 [MTProto#0x28207b700 preparing msgsAck (7479748294030159872/0)]
+2025-03-09 03:03:31.552 [MTProto#0x28207b700 preparing <TLRPCmessages_receivedMessages$messages_receivedMessages: 0x281330d00> (7479748294031379456/0)]
+2025-03-09 03:03:31.660 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281336490> (7479748301480012495)]
+2025-03-09 03:03:31.840 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2811ff520> (7479748301558443867)]
+2025-03-09 03:03:31.840 [MTRequestMessageService#0x28354c1e0 response for 7479748293550222336 is error: 400: INTERNAL_SERVER_ERROR]
+2025-03-09 03:03:31.840 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281331c10> (7479748301961229515)]
+2025-03-09 03:03:31.841 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2811fef60> (7479748301963893593)]
+2025-03-09 03:03:31.841 [MTRequestMessageService#0x28354c1e0 response for 7479748294031379456 is (
+    "<TLReceivedNotifyMessage$receivedNotifyMessage: 0x2813357d0>"
+)]
+2025-03-09 03:03:31.841 receivedMessages: maxId: 46610, mids: (
+    46610
+), withoutSound: {(
+)}
+2025-03-09 03:03:36.021 [MTProto#0x28207b700 received <TLUpdates$updates: 0x281e919b0> (7479748320075510539)]
+2025-03-09 03:03:36.022 otherUpdates:
+(
+    "<TLUpdate$updateDeleteChannelMessages: 0x2811fbd20>"
+)
+2025-03-09 03:03:36.022 update: <TLUpdate$updateDeleteChannelMessages: 0x2811fbd20>, pts: 80791, ptsCount: 1
+2025-03-09 03:03:37.097 st story data autoExpiredStories start~~
+2025-03-09 03:03:37.097 st story data autoExpiredStories storyMinimumDate - 0 nowDate - 1741514615 diff - -1741514615
+2025-03-09 03:03:37.334 [MTProto#0x28207b700 preparing msgsAck (7479748318865533952/0)]
+2025-03-09 03:03:37.334 [MTProto#0x28207b700 preparing <TLRPChelp_getInviteText$help_getInviteText: 0x281337c30> (7479748318866980864/0)]
+2025-03-09 03:03:37.335 [MTProto#0x28207b700 preparing <TLRPChelp_getConfig$help_getConfig: 0x281334440> (7479748318867237888/0)]
+2025-03-09 03:03:37.335 [MTProto#0x28207b700 preparing <TLRPCusers_getUsers$users_getUsers: 0x281335650> (7479748318867440640/0)]
+2025-03-09 03:03:37.557 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281331e30> (7479748326797400951)]
+2025-03-09 03:03:37.737 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281067b80> (7479748326805155695)]
+2025-03-09 03:03:37.738 [MTRequestMessageService#0x28354c1e0 response for 7479748318866980864 is <TLhelp_InviteText$help_inviteText: 0x2813356e0>]
+2025-03-09 03:03:37.738 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281065f60> (7479748326821267693)]
+2025-03-09 03:03:37.739 [MTRequestMessageService#0x28354c1e0 response for 7479748318867440640 is (
+    "<TLUser$user: 0x282648370>"
+)]
+2025-03-09 03:03:37.739 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x2810665c0> (7479748326833876707)]
+2025-03-09 03:03:37.739 [MTRequestMessageService#0x28354c1e0 response for 7479748318867237888 is <TLConfig$config: 0x2820380a0>]
+2025-03-09 03:03:37.740 [MTProto#0x28207b700 received <TLUpdates$updates: 0x281e865e0> (7479748327549652255)]
+2025-03-09 03:03:37.740 st config flag - 836424762
+2025-03-09 03:03:37.772 store enable = 1048576
+2025-03-09 03:03:37.772 st badge updateConfig discoverBadgeDate - 61 previousDiscoverBadgeDate - 61
+2025-03-09 03:03:37.773 st story enabled - 1 _storiesEnabled - 1
+2025-03-09 03:03:37.773 st story enabled for settings - 1 _storiesEnabled - 1
+2025-03-09 03:03:37.775 pcPayEnabled changed to 0
+2025-03-09 03:03:37.775 st tabbar walletHidden -- 0
+2025-03-09 03:03:38.116 message date: 1741514617
+2025-03-09 03:03:38.117 otherUpdates:
+(
+    "<TLUpdate$updateNewChannelMessage: 0x281136240>"
+)
+2025-03-09 03:03:38.117 update: <TLUpdate$updateNewChannelMessage: 0x281136240>, pts: 80792, ptsCount: 1
+2025-03-09 03:03:38.147 [MTProto#0x28207b700 preparing msgsAck (7479748322354592768/0)]
+2025-03-09 03:03:38.147 [MTProto#0x28207b700 preparing <TLRPCchannels_getParticipants$channels_getParticipants: 0x281e87450> (7479748322355112960/0)]
+2025-03-09 03:03:38.225 ===== Updating typing statuses
+2025-03-09 03:03:38.226 [MTProto#0x28207b700 preparing msgsAck (7479748322693594112/0)]
+2025-03-09 03:03:38.226 [MTProto#0x28207b700 preparing <TLRPCmessages_receivedMessages$messages_receivedMessages: 0x281331230> (7479748322693959680/0)]
+2025-03-09 03:03:38.369 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x281332430> (7479748330290412551)]
+2025-03-09 03:03:38.552 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281109a20> (7479748330321997743)]
+2025-03-09 03:03:38.552 [MTRequestMessageService#0x28354c1e0 response for 7479748322355112960 is error: 400: INTERNAL_SERVER_ERROR]
+2025-03-09 03:03:38.553 [MTProto#0x28207b700 received <MTMsgsAckMessage: 0x2813356e0> (7479748330617954275)]
+2025-03-09 03:03:38.553 [MTProto#0x28207b700 received <MTRpcResultMessage: 0x281133f00> (7479748330620495209)]
+2025-03-09 03:03:38.554 [MTRequestMessageService#0x28354c1e0 response for 7479748322693959680 is (
+    "<TLReceivedNotifyMessage$receivedNotifyMessage: 0x281332430>"
+)]
+2025-03-09 03:03:38.554 receivedMessages: maxId: 46611, mids: (
+    46611
+), withoutSound: {(
+)}
+2025-03-09 03:03:39.490 [MTProto#0x28207b700 pause]
+2025-03-09 03:03:39.490 Background: ended task it 33
+2025-03-09 03:03:39.490 [MTProto#0x28207b700 changing transport MTTcpTransport#0x283224a00 to #0x0]
+2025-03-09 03:03:39.498 [MTTcpConnection#82861260 disconnected from 99.83.186.166]
+2025-03-09 03:03:39.578 [PotatoNetworking state: 0 0 1 0 0]
