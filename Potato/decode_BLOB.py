@@ -19,21 +19,12 @@ def iterate_pattern(input_file):
     data_type = 0
     data_length = 0
 
-    # one byte length of title
-    # variable length title in ASCII
-    # one byte data type
-    # 0x01 = 1 byte
-    # 0x02 = 4 bytes
-    # 0x03 = 8 bytes
-    # 0x06 = Variable payload
-    # Next byte declares length of payload
-    # variable length payload
-
     while True:
         # Get the length of the title
         title_length = int.from_bytes(input_file.read(1), byteorder="little")
-        
+        print(title_length)
         if not title_length:
+            print(input_file.read(10))
             break
 
         ASCII_title = file.read(title_length).decode('utf-8', errors='replace')
@@ -55,7 +46,6 @@ def iterate_pattern(input_file):
         elif data_type == 6:
             d_t = "Varint"
             data_length = get_variable_length(file)
-            # data_length = int.from_bytes(input_file.read(1), byteorder="little")
         else:
             print(f"Unsupported data type of {data_type} encountered. Program exiting.")
 
@@ -76,6 +66,15 @@ def iterate_pattern(input_file):
                 print(f"\tFirst four bytes = Group ID: {abs(group_ID)}")
             elif ASCII_title == 'i':
                 print(f"\tMessage {int.from_bytes(payload_data, byteorder='little')} within the group chat.")
+            elif ASCII_title == 'unr' and int.from_bytes(payload_data, byteorder='little') == 1:
+                print("\tUnread = True")
+            elif ASCII_title == 'unr' and int.from_bytes(payload_data, byteorder='little') == 0:
+                print("\tUnread = False")
+            elif ASCII_title == 'out' and int.from_bytes(payload_data, byteorder='little') == 1:
+                print("\tOutgoing = True")
+            elif ASCII_title == 'out' and int.from_bytes(payload_data, byteorder='little') == 0:
+                print("\tOutgoing = False")
+            
                 
             print('')
         if d_t == "Varint":
@@ -110,7 +109,7 @@ def get_variable_length(file):
 
         if (byte & 0x80) == 0:  # MSB is 0, end of varint
             break
-
+    print(value)
     return value
 
 with open(target_file, "rb") as file:
