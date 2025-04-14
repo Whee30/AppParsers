@@ -1,16 +1,20 @@
 import sys
 import datetime
 
-# Check if the user provided the target file as an argument
+# the decode_blob.py attempts to pick apart the key/value pairs and spit out the data so far. 
+# There are some offsets that are broken when interpreting the varints. But effectively the benchmark goes:
+# 1 byte for length of key
+# x bytes for ASCII key
+# 1 byte for data type (str/int/varint so far)
+# based on type, 4 bytes, 8 bytes or variable length from this point
+# and repeat
+# Interpretations are included wherever they are "known", this is a script under flux however and is subject to change with new research
+
 if len(sys.argv) != 2:
     print("Usage: python script.py <target file>")
     sys.exit(1)
 
-# Get the target file from the command-line arguments
 target_file = sys.argv[1]
-
-print(f"The target file is: {target_file}")
-
 
 def iterate_pattern(input_file):
     #blob_data = input_file.read()
@@ -40,7 +44,7 @@ def iterate_pattern(input_file):
         elif data_type == 3:
             d_t = "Int"
             data_length = 8
-        elif data_type ==4:
+        elif data_type == 4:
             d_t = "Unk"
             print("unknown data type of 4")
         elif data_type == 6:
@@ -74,8 +78,7 @@ def iterate_pattern(input_file):
                 print("\tOutgoing = True")
             elif ASCII_title == 'out' and int.from_bytes(payload_data, byteorder='little') == 0:
                 print("\tOutgoing = False")
-            
-                
+                            
             print('')
         if d_t == "Varint":
             print(f"{ASCII_title}, data type '{d_t}':")
@@ -90,14 +93,9 @@ def iterate_pattern(input_file):
             print(f"\tASCII: {payload_data.decode('utf-8', errors='replace')}")
             print('')        
 
-
-
-
-
 def get_variable_length(file):
     value = 0
     shift = 0
-
     while True:
         byte = file.read(1)  # Read one byte from the file
         if not byte:
