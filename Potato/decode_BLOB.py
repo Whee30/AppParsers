@@ -1,6 +1,7 @@
 import sys
 import datetime
 
+<<<<<<< HEAD
 
 
 # Use this block to declare a block by running the program with the desired file through cmd: "script.py my_BLOB.bin"
@@ -16,6 +17,23 @@ import datetime
 # Use this block to explicitly declare a BLOB.
 target_file = "sample_BLOBs/outgoing_image_reply_BLOB"
 
+=======
+# the decode_blob.py attempts to pick apart the key/value pairs and spit out the data so far. 
+# There are some offsets that are broken when interpreting the varints. But effectively the benchmark goes:
+# 1 byte for length of key
+# x bytes for ASCII key
+# 1 byte for data type (str/int/varint so far)
+# based on type, 4 bytes, 8 bytes or variable length from this point
+# and repeat
+# Interpretations are included wherever they are "known", this is a script under flux however and is subject to change with new research
+
+if len(sys.argv) != 2:
+    print("Usage: python script.py <target file>")
+    sys.exit(1)
+
+target_file = sys.argv[1]
+
+>>>>>>> 81b74d1bf146f2869b1428381d6f6c79c38713ff
 def iterate_pattern(input_file):
     blob_data = input_file.read()
     blob_length = len(blob_data)
@@ -52,7 +70,14 @@ def iterate_pattern(input_file):
         elif data_type == 3:
             d_t = "Int"
             data_length = 8
+<<<<<<< HEAD
         elif data_type == 6: # The fun one... data type 1 may also be a varint, needs testing.
+=======
+        elif data_type == 4:
+            d_t = "Unk"
+            print("unknown data type of 4")
+        elif data_type == 6:
+>>>>>>> 81b74d1bf146f2869b1428381d6f6c79c38713ff
             d_t = "Varint"
             x = working_offset
             d = blob_data
@@ -93,6 +118,10 @@ def iterate_pattern(input_file):
                 print("\tOutgoing = True")
             elif ASCII_title == 'out' and int.from_bytes(payload_data, byteorder='little') == 0:
                 print("\tOutgoing = False")
+<<<<<<< HEAD
+=======
+                            
+>>>>>>> 81b74d1bf146f2869b1428381d6f6c79c38713ff
             print('')
             
         if d_t == "Varint":
@@ -110,12 +139,15 @@ def iterate_pattern(input_file):
             print('')      
             
 
+<<<<<<< HEAD
 # Copilot did the heavy lift for this function. It appears to work as I have manually verified calculations
 # I'd be lying if I said I fully understood the syntax. Varints are easy on paper, less so here.
 def decode_varint(source_data, offset):
+=======
+def get_variable_length(file):
+>>>>>>> 81b74d1bf146f2869b1428381d6f6c79c38713ff
     value = 0
     shift = 0
-
     while True:
         byte = source_data[offset]  # Read a byte at the current offset
         offset += 1  # Increment the offset for the next byte
