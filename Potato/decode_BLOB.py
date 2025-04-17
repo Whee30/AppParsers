@@ -14,7 +14,7 @@ import datetime
 
 
 # Use this block to explicitly declare a BLOB.
-target_file = "sample_BLOBs/outgoing_image_reply_BLOB"
+target_file = "sample_BLOBs/outgoing_text_BLOB_2.bin"
 
 def iterate_pattern(input_file):
     blob_data = input_file.read()
